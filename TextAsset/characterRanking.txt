@@ -1,0 +1,251 @@
+{
+"CharacterRanking":{
+	"tp": "vl",
+	"padding": [0, 0, 0, 10],
+	"spacing": 0,
+	"sub": [
+		{
+			"tp": "btn",
+			"se": "none",
+			"label": "<size=20><text id='IDS_KCREPORT.CATEGORY001'/></size>",
+			"bgimage": "ButtonSB",
+			"toggleimage":"ButtonSY",
+			"h": 60,
+			"flex": [1, -1],
+		},
+		{
+			"tp": "ac",
+			"padding": [15, 0, 15, 10],
+			"expand": false,
+			"onexpand":"guide:on?mes=<text id='IDS_KCREPORT.CHARA_TEXT002'/>&messpd=30",
+			"sub": [
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"div",
+							"size":[80,64],
+							"textcolor":"#ffcc00",
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+								},
+							]
+						},
+						{
+							"tp":"div",
+							"h":70,
+							"w":180,
+							"flex":[1,-1],
+							"textcolor":"#ffcc00",
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<chara id=1>",
+								},
+							]
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"src":"file://Characters/SN0001/Images/#/Chara001",
+									"size":[62,73],
+								},
+							]
+						}
+					]
+				},
+				{"tp":"sp", "color":"#00ccff"},
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"div",
+							"size":[80,64],
+							"textcolor":"#00d8ff",
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+								},
+							]
+						},
+						{
+							"tp":"div",
+							"h":70,
+							"w":180,
+							"flex":[1,-1],
+							"textcolor":"#00d8ff",
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<chara id=2>",
+								},
+							]
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"src":"file://Characters/SN0002/Images/#/Chara001",
+									"size":[62,73],
+								},
+							]
+						}
+					]
+				},
+				{"tp":"sp", "color":"#00ccff"},
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"div",
+							"size":[80,64],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+								},
+							]
+						},
+						{
+							"tp":"div",
+							"h":70,
+							"w":180,
+							"flex":[1,-1],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<chara id=3>",
+								},
+							]
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"src":"file://Characters/SN0003/Images/#/Chara001",
+									"size":[62,73],
+								},
+							]
+						}
+					]
+				},
+				{"tp":"sp", "color":"#00ccff"},
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"div",
+							"size":[80,64],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+								},
+							]
+						},
+						{
+							"tp":"div",
+							"h":70,
+							"w":180,
+							"flex":[1,-1],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<chara id=9>",
+								},
+							]
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"src":"file://Characters/SN0009/Images/#/Chara001",
+									"size":[62,73],
+								},
+							]
+						}
+					]
+				},
+				{"tp":"sp", "color":"#00ccff"},
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"div",
+							"size":[80,64],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+								},
+							]
+						},
+						{
+							"tp":"div",
+							"h":70,
+							"w":180,
+							"flex":[1,-1],
+							"sub":[
+								{
+									"tp":"text",
+									"align":"middle-left",
+									"style":"TextL",
+									"extext":"<chara id=12>",
+								},
+							]
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"src":"file://Characters/SN0012/Images/#/Chara001",
+									"size":[62,73],
+								},
+							]
+						}
+					]
+				},
+				{"tp":"text", "color":"#", "style":"TextSS", "align":"middle-left", "extext":"<text id='IDS_KCREPORT.TEXT027'/>"},
+			]
+		},
+	]
+}
+
+}

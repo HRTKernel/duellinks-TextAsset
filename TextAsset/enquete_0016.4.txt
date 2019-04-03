@@ -1,0 +1,153 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage zu den Ranglistenduellen",
+  "sharedcontext": "enquete_0016",
+  "onload": "forth:: keychange 1 \" q11\" getkey exist and \" q12\" getkey exist and if \" menu://enable.btn_submit\" openurl else \" menu://disable.btn_submit\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Waren die Bildschirmübergänge und die Steuerungen der Ranglistenduelle benutzerfreundlich?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q11",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du insgesamt mit den verbesserten Ranglistenduellen?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q12",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Hast du noch irgendwelche Anmerkungen zu den verbesserten Ranglistenduellen? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Hattest du Schwierigkeiten, die Ranglistenduelle zu verstehen oder an ihnen teilzunehmen? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":16}",
+          "id": "btn_submit"
+        },
+        {
+          "style": "FixSpaceM"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 4,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0016.close"
+    }
+  ]
+}

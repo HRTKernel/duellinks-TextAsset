@@ -1,0 +1,142 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0005",
+  "onload": "forth:: keychange 1 \" q1\" getkey exist and \" q2\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Welche weiteren Ideen oder Anregungen hast du für „Yu-Gi-Oh! Duel Links.“"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du mit „Yu-Gi-Oh! Duel Links“?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q1",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du mit den bereits stattgefundenen Events/Kampagnen?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q2",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns deine Wünsche für künftige Events mit.  <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 1,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0005.close"
+    }
+  ]
+}

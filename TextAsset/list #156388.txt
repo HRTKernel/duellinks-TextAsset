@@ -1,0 +1,172 @@
+{
+	"tp": "page"
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"header": {
+		"back": true
+		,"home": true
+	}
+	,"loadtext": ["IDS_KCREPORT"]
+	,"onhomeoverride": "<cwork path=KcReport.onhomeoverride>"
+	,"textcolor": "white"
+	,"title": "<text id='IDS_KCREPORT.SUB_TITLE002'/>"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"style": "PageHeaderPadding"
+				}
+				,{
+					"tp": "body"
+					,"bgcolor": "#00000000"
+					,"bgimage": ""
+					,"padding": [0,20,0,0]
+					,"spacing": 15
+					,"sub": [
+						{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "btn"
+									,"bgimage": "InfoWindowB1"
+									,"flex": [1,-1]
+									,"h": 102
+									,"label": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE004'/></size>"
+									,"link": "menu://back.content"
+									,"se": "none"
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report4.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "btn"
+									,"bgimage": "InfoWindowB1"
+									,"flex": [1,-1]
+									,"h": 102
+									,"label": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE003'/></size>"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/4/old/3/top"
+									,"se": "none"
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report3.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "btn"
+									,"bgimage": "InfoWindowB1"
+									,"flex": [1,-1]
+									,"h": 102
+									,"label": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE002'/></size>"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/3/old/2/top"
+									,"se": "none"
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report2.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "btn"
+									,"bgimage": "InfoWindowB1"
+									,"flex": [1,-1]
+									,"h": 102
+									,"label": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE001'/></size>"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/3/old/1/top"
+									,"se": "none"
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report1.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"anchor": [0.5,0,0.5,0]
+					,"layout": false
+					,"pivot": [0.5,0]
+					,"size": [760,200]
+					,"src": "ScrollCover"
+				}
+			]
+		}
+	]
+}

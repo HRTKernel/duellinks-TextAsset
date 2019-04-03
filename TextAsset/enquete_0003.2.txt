@@ -1,0 +1,250 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0003",
+  "onload": "forth:: keychange 1 \" q5\" getkey exist and \" q6\" getkey exist and \" q7\" getkey exist and \" q8\" getkey exist and \" q9\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Lassen sich die Decks mit den Funktionen gut ändern?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Schlecht"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Gut"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q5",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Machen dir Ranglistenduelle Spaß?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q6",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie ist der Schwierigkeitsgrad der NPC-Duellanten?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Hoch"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Niedrig"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q7",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Motiviert dich das Stufensystem für deinen Charakter?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q8",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Gefällt dir das Fähigkeiten-Feature?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q9",
+          "link": "se:SE_SELECT"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 2,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0003.close"
+    }
+  ]
+}

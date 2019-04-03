@@ -1,0 +1,212 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage zu den Ranglistenduellen",
+  "sharedcontext": "enquete_0016",
+  "onload": "forth:: keychange 1 \" q7\" getkey exist and \" q8\" getkey exist and \" q9\" getkey exist and \" q10\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Waren die kumulativen Belohnungen für den Sieg inhaltlich zufriedenstellend (Tickets, Gold, Edelsteine, etc.)?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q7",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Waren die Belohnungen für den Rangaufstieg inhaltlich zufriedenstellend (Edelsteine)?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q8",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Hast du verstanden, wie die Ticketbelohnungen gegen Karten getauscht werden können?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q9",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Waren die Karten, die durch SR-Tickets erhältlich waren, interessant für dich?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Nein"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Ja"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q10",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 3,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0016.close"
+    }
+  ]
+}

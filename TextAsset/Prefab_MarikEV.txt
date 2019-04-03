@@ -1,0 +1,172 @@
+{
+	"Prefab_MarikEV":{
+		"Street01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"st_duelcenterMonitor_moji":{"color":"#C8C6EAFF"},
+				"st_DuelMonitor_tex03":		{"color":"#C8C6EAFF"},
+				"st_alpha_tex01":			{"color":"#C8C6EAFF"},
+				"st_main_tex01_Duelcenter":	{"color":"#C8C6EAFF"},
+				"st_main_tex01":			{"color":"#ABA8CCFF"},
+				"st_half_alphatex02":		{"color":"#ABA8CCFF"}
+			},
+			"template":{
+				"DM_Street01":{},
+				"Prefab_MarikEV_DM":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Themepark01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":92.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"Cardshop_Ring-cardshop15_lambert3":{"color":"#C8C6EAFF"},
+				"Ray_Tex01":		{"color":"#C8C6EAFF"},
+				"tenmetsu_tex01":	{"color":"#C8C6EAFF"},
+				"shopposter_001":	{"color":"#C8C6EAFF"},
+				"themepark_a_tex01":{"color":"#ABA8CCFF"},
+				"water_tex01":		{"color":"#ABA8CCFF"},
+				"water_tex02":		{"color":"#ABA8CCFF"},
+				"themepark_tex01":	{"color":"#ABA8CCFF"}
+			},
+			"template":{
+				"DM_Themepark01":{},
+				"Prefab_MarikEV_DM":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Downtown01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"Dt_half_alphatex":	{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex01":		{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex02":		{"color":"#ABA8CCFF"},
+				"Dt_various_main":	{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"DM_Downtown01":{},
+				"Prefab_MarikEV_DM":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Park01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"park_alphatex01":			{"color":"#C8C6EAFF"},
+				"park_half_alphatex":		{"color":"#C8C6EAFF"},
+				"water_tex01":				{"color":"#C8C6EAFF"},
+				"park_tex01":				{"color":"#ABA8CCFF"},
+				"Gate_Halfalpha-lambert16":	{"color":"#ABA8CCFF"},
+				"park_gate01":				{"color":"#EFEEF7FF"}
+			},
+			"template":{
+				"DM_Park01":{},
+				"Prefab_MarikEV_DM":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Street02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"st_duelcenterMonitor_moji":{"color":"#C8C6EAFF"},
+				"st_DuelMonitor_tex03":		{"color":"#C8C6EAFF"},
+				"st_alpha_tex01":			{"color":"#C8C6EAFF"},
+				"st_main_tex01_Duelcenter":	{"color":"#C8C6EAFF"},
+				"st_main_tex01":			{"color":"#ABA8CCFF"},
+				"st_half_alphatex02":		{"color":"#ABA8CCFF"}
+			},
+			"template":{
+				"DM_Street02":{},
+				"Prefab_MarikEV_DM":{"area_name":"Street01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Themepark02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":92.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"Cardshop_Ring-cardshop15_lambert3":{"color":"#C8C6EAFF"},
+				"Ray_Tex01":		{"color":"#C8C6EAFF"},
+				"tenmetsu_tex01":	{"color":"#C8C6EAFF"},
+				"shopposter_001":	{"color":"#C8C6EAFF"},
+				"themepark_a_tex01":{"color":"#ABA8CCFF"},
+				"water_tex01":		{"color":"#ABA8CCFF"},
+				"water_tex02":		{"color":"#ABA8CCFF"},
+				"themepark_tex01":	{"color":"#ABA8CCFF"}
+			},
+			"template":{
+				"DM_Themepark02":{},
+				"Prefab_MarikEV_DM":{"area_name":"Themepark01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Downtown02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"Dt_half_alphatex":	{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex01":		{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex02":		{"color":"#ABA8CCFF"},
+				"Dt_various_main":	{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"DM_Downtown02":{},
+				"Prefab_MarikEV_DM":{"area_name":"Downtown01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Park02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"OverRayTopColor":"#08070EFF"
+			},
+			"changeMaterials":{
+				"park_alphatex01":			{"color":"#C8C6EAFF"},
+				"park_half_alphatex":		{"color":"#C8C6EAFF"},
+				"water_tex01":				{"color":"#C8C6EAFF"},
+				"park_tex01":				{"color":"#ABA8CCFF"},
+				"Gate_Halfalpha-lambert16":	{"color":"#ABA8CCFF"},
+				"park_gate01":				{"color":"#EFEEF7FF"}
+			},
+			"template":{
+				"DM_Park02":{},
+				"Prefab_MarikEV_DM":{"area_name":"Park01"},
+				"Hanabi_Fubuki":{}
+			}
+		}
+	}
+}

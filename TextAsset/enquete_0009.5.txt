@@ -1,0 +1,95 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0009",
+  "onload": "forth:: keychange 1 \" q3\" getkey exist and if \" menu://enable.btn_submit\" openurl else \" menu://disable.btn_submit\" openurl endif ; keychange \" menu://disable.next\" openurl",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du mit dem Duellraum (Beta)?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Sehr zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q3",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wenn es Funktionen gibt, die du in zukünftigen Updates im Duellraum (Beta) gerne sehen würdest, teile sie uns bitte mit. <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t4"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":9}",
+          "id": "btn_submit"
+        },
+        {
+          "style": "FixSpaceM"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 5,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0009.close"
+    }
+  ]
+}

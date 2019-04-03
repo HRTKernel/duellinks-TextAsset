@@ -1,0 +1,90 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0005",
+  "onload": "forth:: keychange 1 \" q4\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du mit den Bildschirmübergängen und der Steuerung?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q4",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Welche Änderungen würdest du dir für Bildschirmübergänge und Steuerung wünschen? <color=yAqua>(Optional)</color> (z.B.: Deck ändern, Globaler Chat, usw.)"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t3"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 3,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0005.close"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Zu den glänzenden Karten"
+    },
+    {
+      "style": "TextS",
+      "extext": "Manche Karten sind sehr selten und deshalb werden sie besonders hervorgehoben. Dies hat keinen Einfluss auf die Fähigkeiten im Duell, aber die Belohnungen nach dem Duell sind besser."
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

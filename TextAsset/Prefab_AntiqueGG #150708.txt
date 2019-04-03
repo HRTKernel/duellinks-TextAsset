@@ -1,0 +1,764 @@
+{
+	"Prefab_AntiqueGG":{
+		"Street01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_EX":				{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter":					{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_shadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Door":				{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_LightOFF":			{
+				"priority":3,
+				"type":"Fbx",
+				"finishActions":{
+					"MapLoadAction_StreetLightSwitchZero":{}
+				}
+			},
+
+			"Models/Single/Map2/Street01/FBX/Prefab_Duelcenter_LoghtLocators":	{"priority":3,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Street01/Collider_StreetLightL":			{"priority":3,"type":"Collider"},
+			"Prefabs/Single/Single3D/Street01/Collider_StreetLightR":			{"priority":3,"type":"Collider"},
+			"Prefabs/Single/Single3D/Street01/CharacterPosition":				{"priority":10,"type":"Data"},
+
+			"Models/Single/Map2/Street01/FBX/Duelcenter_kouji":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Mmonitor_OFF":{
+				"priority":3,
+				"type":"FbxAndAnime",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_monitor":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Mmonitor_ON":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Mapmark/mapmark_DuelCenter":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				},
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_COLOSSEUM'/>"}
+				}
+			},
+			"Prefabs/Single/Single3D/Street01/BadgeAnim_DuelCenter":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Street01/Collider_DuelCenter":{
+				"priority":3,
+				"type":"Collider",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+
+
+			"Models/Single/Map2/Street01/FBX/sky":						{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Street01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Street01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Themepark01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":92.0
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_EX":				{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Door":				{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_monitorOFF":		{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Shadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Water":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_monitorON":		{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Line1":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Line2":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Prefab_Cardshop":			{
+				"priority":3,
+				"type":"Fbx"
+				"finishActions":{
+					"MapLoadAction_ShopSignBoardCheck":{}
+				}
+			},
+			"Models/Single/Map2/Mapmark/mapmark_shop":				{
+				"priority":5
+				,"type":"Fbx"
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_SHOP'/>"}
+				}
+			},
+			"Prefabs/Single/Single3D/Themepark01/BadgeAnim_Shop":			{"priority":5,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Themepark01/Collider_Cardshop":		{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Themepark01/Collider_ShopBlueEyes":	{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Themepark01/CharacterPosition":		{"priority":10,"type":"Data"},
+
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Ring":{
+				"priority":3,"type":"FbxAndAnime",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Effectdummy":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Card":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/ShopSignBoard/Cardshop_Holoeffect":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckShopSignBoard":{}
+				},
+				"finishActions":{
+					"setShopSignBoardTexture":{}
+				}
+			},
+			"Models/Single/CardPortal/CardPortal":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckCardPortal":{}
+				},
+				"finishActions":{
+					"MapLoadAction_FinishCardPortal":{}
+				}
+			},
+			"Prefabs/Single/Single3D/Themepark01/Collider_CardPortal":{
+				"priority":1,"type":"Collider"
+				"preparationActions":{
+					"MapLoadAction_CheckCardPortal":{}
+				}
+			},
+
+
+			"Models/Single/Map2/Themepark01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Themepark01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Themepark01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Downtown01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":16.0,
+				"FogEnd":88.0
+			},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_door":	{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Gomibako2":		{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_EX":				{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Shadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_Display":	{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_line":	{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Mapmark/mapmark_labo":					{
+				"priority":5,
+				"type":"Fbx",
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_CARD_LABO'/>"}
+				}
+			},
+			"Prefabs/Single/Single3D/Downtown01/BadgeAnim_DHole":		{"priority":5,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Downtown01/Collider_D_hole":		{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Downtown01/Collider_AlleyGomibako":{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Downtown01/CharacterPosition":		{"priority":10"type":"Data"},
+
+			"Models/Single/Map2/Downtown01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Downtown01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Downtown01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Park01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":70.0
+			},
+			"Models/Single/Map2/Park01/FBX/Gate_funsui_base":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_TreeShadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_EX":					{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_Halfalpha":				{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_funsui":				{"priority":3,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Park01/Collider_ParkFunsui":		{"priority":1"type":"Collider"},
+			"Prefabs/Single/Single3D/Park01/CharacterPosition":			{"priority":10"type":"Data"},
+
+			"Models/Single/GateVer2/FBX/Prefab_Gate_Ver2":{
+				"priority":2,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+				"finishActions":{"gateColorChange":{}}
+			},
+			"Models/Single/Map2/Mapmark/mapmark_GateB":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+				"finishActions":{"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_GATE'/>"}}
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeAnim_Gate":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_GateRing":{
+				"priority":1,
+				"type":"Collider"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+			},
+
+
+			"Models/Single/Map2/Park01/FBX/Prefab_Gate_Gakusyu":{
+				"priority":2,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Models/Single/Map2/Mapmark/mapmark_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+				"finishActions":{"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_DUEL_CHALLENGE'/>"}}
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeAnim_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeArrow_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_School":{
+				"priority":1,
+				"type":"Collider"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+
+			"Models/Single/Map2/Park01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/sky_bottom":				{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/sky_inner":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Park01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		}
+		"Street02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+			},
+			"changeMaterials":{
+				"st_main_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Street02/sourceimages/st02_main_tex01"
+					}
+				},
+				"st_main_tex01_Duelcenter":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Street02/sourceimages/st02_main_tex01"
+					},
+				},
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter":					{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_monitor":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Door":				{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Mmonitor_OFF":{
+				"priority":3,
+				"type":"FbxAndAnime",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_Mmonitor_ON":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Street02/FBX/Duelcenter02_EX":				{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/Duelcenter_LightOFF":			{
+				"priority":3,
+				"type":"Fbx",
+				"finishActions":{
+					"MapLoadAction_StreetLightSwitchZero":{}
+				}
+			},
+			"Models/Single/Map2/Street01/FBX/Prefab_Duelcenter_LoghtLocators":	{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Street02/FBX/Duelcenter02_shadow":				{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Street02/FBX/Duelcenter02_kouji":{
+				"priority":3,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+
+
+			"Prefabs/Single/Single3D/Street01/Collider_StreetLightL":			{"priority":3,"type":"Collider"},
+			"Prefabs/Single/Single3D/Street01/Collider_StreetLightR":			{"priority":3,"type":"Collider"},
+			"Prefabs/Single/Single3D/Street01/CharacterPosition":				{"priority":10,"type":"Data"},
+
+			"Models/Single/Map2/Mapmark/mapmark_DuelCenter":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				},
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_COLOSSEUM'/>"}
+				}
+			},
+			"Prefabs/Single/Single3D/Street01/BadgeAnim_DuelCenter":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Street01/Collider_DuelCenter":{
+				"priority":3,
+				"type":"Collider",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkClientWork":{"path":"Single.Map.Center"},
+						"expression":{"not_equal":0}
+					}
+				}
+			},
+
+
+			"Models/Single/Map2/Street02/FBX/sky02":				{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Street02/Prefab_sky_cloud02":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Street01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+
+			},
+			"Prefabs/Single/Single3D/Street01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Themepark02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":92.0
+			},
+			"changeMaterials":{
+				"themepark_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Themepark02/sourceimages/themepark02_tex01"
+					},
+				},
+			},
+			"Models/Single/Map2/Themepark01/FBX/Prefab_Cardshop":			{
+				"priority":3,
+				"type":"Fbx"
+				"finishActions":{
+					"MapLoadAction_ShopSignBoardCheck":{}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Card":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Ring":{
+				"priority":3,"type":"FbxAndAnime",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Line1":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Line2":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Mapmark/mapmark_shop":				{
+				"priority":5
+				,"type":"Fbx"
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_SHOP'/>"}
+				}
+			},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Effectdummy":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckLoadStatus":{
+						"checkShopSignBoard":{"path":"Single.Map.ShopSignBoard"},
+						"expression":{"equal":0}
+					}
+				}
+			},
+			"Models/Single/Map2/Themepark02/FBX/Cardshop02_Shadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_monitorON":		{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_monitorOFF":		{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Door":				{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Themepark02/FBX/Cardshop02_EX":				{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/Cardshop_Water":			{"priority":3,"type":"Fbx"},
+
+
+			"Prefabs/Single/Single3D/Themepark01/BadgeAnim_Shop":			{"priority":5,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Themepark01/Collider_Cardshop":		{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Themepark01/Collider_ShopBlueEyes":	{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Themepark01/CharacterPosition":		{"priority":10,"type":"Data"},
+
+			"Models/Single/ShopSignBoard/Cardshop_Holoeffect":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckShopSignBoard":{}
+				},
+				"finishActions":{
+					"setShopSignBoardTexture":{}
+				}
+			},
+			"Models/Single/CardPortal/CardPortal":{
+				"priority":3,"type":"Fbx",
+				"preparationActions":{
+					"MapLoadAction_CheckCardPortal":{}
+				},
+				"finishActions":{
+					"MapLoadAction_FinishCardPortal":{}
+				}
+			},
+			"Prefabs/Single/Single3D/Themepark01/Collider_CardPortal":{
+				"priority":1,"type":"Collider"
+				"preparationActions":{
+					"MapLoadAction_CheckCardPortal":{}
+				}
+			},
+
+
+			"Models/Single/Map2/Themepark02/FBX/sky02":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Themepark02/Prefab_sky02_cloud":		{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Themepark01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Themepark01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Downtown02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":16.0,
+				"FogEnd":88.0
+			},
+			"changeMaterials":{
+				"Dt_various_main":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Downtown02/sourceimages/Dt02_various_main"
+					},
+				},
+			},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_line":	{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_Display":	{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Dhole1_door":	{"priority":3,"type":"FbxAndAnime"},
+			"Models/Single/Map2/Downtown01/FBX/Rojiura_Gomibako2":		{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Downtown02/FBX/Rojiura02_EX":			{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Downtown02/FBX/Rojiura02_Shadow":		{"priority":3,"type":"Fbx"}
+			
+			,
+			"Models/Single/Map2/Mapmark/mapmark_labo":					{
+				"priority":5,
+				"type":"Fbx",
+				"finishActions":{
+					"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_CARD_LABO'/>"}
+				}
+			},
+			"Prefabs/Single/Single3D/Downtown01/BadgeAnim_DHole":		{"priority":5,"type":"Fbx"},
+			"Prefabs/Single/Single3D/Downtown01/Collider_D_hole":		{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Downtown01/Collider_AlleyGomibako":{"priority":1,"type":"Collider"},
+			"Prefabs/Single/Single3D/Downtown01/CharacterPosition":		{"priority":10"type":"Data"},
+
+			"Models/Single/Map2/Downtown02/FBX/sky02":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Downtown02/Prefab_sky02_cloud":			{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Downtown01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Downtown01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		},
+		"Park02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":70.0
+			},
+			"changeMaterials":{
+				"park_gate01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01"
+					},
+				},
+				"park_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+				"Gakusyu_Line":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+				"Park_half_alphatex":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_Park_half_alphatex"
+					},
+				},
+				"Gate_Halfalpha-lambert16":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+
+
+				"hexeffect_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_hexeffect_tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_hexeffect_tex02",
+					},
+				},
+				"outerring_color":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate02",
+					},
+				},
+				"tenmetsu_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_tenmetsu_tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_tenmetsu_tex02",
+					},
+				},
+				"Ray_Tex01":		{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_Ray_Tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_Ray_Tex02",
+					},
+				},
+				"BaseRing_color":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate02",
+					},
+				},
+			},
+			"Models/Single/GateVer2/FBX/Prefab_Gate_Ver2":{
+				"priority":2,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+				"finishActions":{"gateColorChange":{}}
+			},
+			"Models/Single/Map2/Park01/FBX/Prefab_Gate_Gakusyu":{
+				"priority":2,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Models/Single/Map2/Park01/FBX/Gate_funsui_base":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park02/Prefab_Park02_Gate_funsui":		{
+				"priority":3,"type":"Fbx",
+				"componentPoolPath":"Prefabs/Single/Single3D/Park02/ComponentPools",
+			},
+			"Models/Single/Map2/Park02/FBX/Gate_funsui_light":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park02/FBX/Gate_Park_Addlight":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_TreeShadow":			{"priority":3,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_EX":					{"priority":1,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/Gate_Halfalpha":				{"priority":3,"type":"Fbx"},
+
+
+			"Prefabs/Single/Single3D/Park01/Collider_ParkFunsui":		{"priority":1"type":"Collider"},
+			"Prefabs/Single/Single3D/Park01/CharacterPosition":			{"priority":10"type":"Data"},
+
+			"Models/Single/Map2/Mapmark/mapmark_GateB":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+				"finishActions":{"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_GATE'/>"}}
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeAnim_Gate":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_GateRing":{
+				"priority":1,
+				"type":"Collider"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkGateState":{},"expression":{"not_equal":0}}},
+			},
+
+
+			"Models/Single/Map2/Mapmark/mapmark_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx",
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+				"finishActions":{"mapmarkSetText":{"extext":"<text id='IDS_SINGLE.OBJ_DUEL_CHALLENGE'/>"}}
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeAnim_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/BadgeArrow_GateGakusyu":{
+				"priority":5,
+				"type":"Fbx"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_School":{
+				"priority":1,
+				"type":"Collider"
+				"preparationActions":{"MapLoadAction_CheckLoadStatus":{"checkClientWork":{"path":"Single.Map.School"},"expression":{"gt":0}}},
+			},
+
+			"Models/Single/Map2/Park02/Prefab_Park02_Gate_Sky":				{"priority":4,"type":"Fbx"},
+
+			"Models/Single/Event/Ev0021/DM/Park01/Prefab_AntiqueGG":	{
+				"priority":3,"type":"Fbx","groupName":"eventObject",
+				"finishActions":{
+					"mapmarkSetText":{
+						"extext":"<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+						"target":"mapmark_Event"
+					}
+				}
+			},
+			"Prefabs/Single/Single3D/Park01/Collider_Darkcastle":		{"priority":1,"type":"Collider","groupName":"eventObject"}
+		}
+	}
+}

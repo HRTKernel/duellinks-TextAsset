@@ -1,0 +1,211 @@
+{
+	"DC_OBJ":{
+		"Street01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+			},
+			"template":{
+				"DM_Street01":{},
+				"DC_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Street01/FBX/sky":						{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Street01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+		},
+		"Themepark01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":92.0
+			},
+			"template":{
+				"DM_Themepark01":{},
+				"DC_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Themepark01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Themepark01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+		},
+		"Downtown01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":16.0,
+				"FogEnd":88.0
+			},
+			"template":{
+				"DM_Downtown01":{},
+				"DC_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Downtown01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Downtown01/FBX/sky_cloud":				{"priority":4,"type":"Fbx"},
+		},
+		"Park01":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":70.0
+			},
+			"template":{
+				"DM_Park01":{},
+				"DC_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Park01/FBX/sky":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/sky_bottom":				{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Park01/FBX/sky_inner":				{"priority":4,"type":"Fbx"},
+		}
+		"Street02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+			},
+			"changeMaterials":{
+				"st_main_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Street02/sourceimages/st02_main_tex01"
+					}
+				},
+				"st_main_tex01_Duelcenter":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Street02/sourceimages/st02_main_tex01"
+					},
+				},
+			},
+			"template":{
+				"DM_Street02":{},
+				"DC_OBJ":{"area_name":"Street01"},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Street02/FBX/sky02":				{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Street02/Prefab_sky_cloud02":		{"priority":4,"type":"Fbx"},
+		},
+		"Themepark02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":92.0
+			},
+			"changeMaterials":{
+				"themepark_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Themepark02/sourceimages/themepark02_tex01"
+					},
+				},
+			},
+			"template":{
+				"DM_Themepark02":{},
+				"DC_OBJ":{"area_name":"Themepark01"},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Themepark02/FBX/sky02":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Themepark02/Prefab_sky02_cloud":		{"priority":4,"type":"Fbx"},
+		},
+		"Downtown02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":16.0,
+				"FogEnd":88.0
+			},
+			"changeMaterials":{
+				"Dt_various_main":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Downtown02/sourceimages/Dt02_various_main"
+					},
+				},
+			},
+			"template":{
+				"DM_Downtown02":{},
+				"DC_OBJ":{"area_name":"Downtown01"},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Downtown02/FBX/sky02":					{"priority":4,"type":"Fbx"},
+			"Models/Single/Map2/Downtown02/Prefab_sky02_cloud":			{"priority":4,"type":"Fbx"},
+		},
+		"Park02":{
+			"areaOptions":{
+				"FogColor":"#E1FFFFFF",
+				"FogStart":30.0,
+				"FogEnd":70.0
+			},
+			"changeMaterials":{
+				"park_gate01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01"
+					},
+				},
+				"park_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+				"Gakusyu_Line":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+				"Park_half_alphatex":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_Park_half_alphatex"
+					},
+				},
+				"Gate_Halfalpha-lambert16":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_tex01"
+					},
+				},
+
+
+				"hexeffect_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_hexeffect_tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_hexeffect_tex02",
+					},
+				},
+				"outerring_color":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate02",
+					},
+				},
+				"tenmetsu_tex01":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_tenmetsu_tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_tenmetsu_tex02",
+					},
+				},
+				"Ray_Tex01":		{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_Ray_Tex01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_Ray_Tex02",
+					},
+				},
+				"BaseRing_color":	{
+					"texture":	{
+						"_MainTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate01",
+						"_SubTex":"Models/Single/Map2/Park02/sourceimages/PK02_park_gate02",
+					},
+				},
+			},
+			"template":{
+				"DM_Park02":{},
+				"DC_OBJ":{"area_name":"Park01"},
+				"Hanabi_Fubuki":{}
+			},
+
+			"Models/Single/Map2/Park02/Prefab_Park02_Gate_Sky":		{"priority":4,"type":"Fbx"},
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Was ist das „Extra Deck“?"
+    },
+    {
+      "style": "TextS",
+      "extext": "Das Extra Deck besteht aus Fusionsmonstern und anderen Monstern, die durch eine spezielle Methode beschworen werden.\n\nDas Extra Deck ist von deinem Main Deck getrennt und kann zwischen 0 und 5 Karten enthalten."
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

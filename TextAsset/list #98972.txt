@@ -1,0 +1,68 @@
+{
+	"tp":"page",
+	"title":"<text id='IDS_KCREPORT.SUB_TITLE002'/>",
+	"loadtext":["IDS_KCREPORT"],
+	"exbg":"Prefabs/Shop/Materials/3DMenuBG",
+	"onhomeoverride":"<cwork path=KcReport.onhomeoverride>",
+	"header":{
+		"back":true,
+		"home":true,
+	},
+	"textcolor":"white",
+	"sub":[
+		{
+			"tp":"vl",
+			"padding":[10,0,10,0],
+			"sub":[
+				{
+					"style": "PageHeaderPadding",
+				},
+				{
+					"tp":"body",
+					"bgimage":"",
+					"bgcolor":"#00000000",
+					"padding":[0,20,0,0],
+					"spacing":15,
+					"sub":[
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp": "btn",
+									"label": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE001'/></size>",
+									"bgimage": "InfoWindowB1",
+									"h": 102,
+									"flex": [1, -1],
+									"link":"menu://back.content",
+								},
+								{
+									"tp":"img"
+									"src":"<cwork path=KcReport.list.report1.newicon>",
+									"layout":false,
+									"anchor":[1,0.5,1,0.5],
+									"size":[82,62],
+									"pos":[-30,30],
+									"rot":[0,0,-10],
+									"tween":[
+										{"tween":"scale","from":[0.8,0.8,1],"to":[1,1,1],"style":"PingPongLoop","duration":0.4},
+									]
+								}
+							]
+						},
+					]
+						
+				},
+				{
+					"tp":"img",
+					"src":"ScrollCover",
+					"layout":false,
+					"anchor":[0,0,1,0],
+					"pivot":[0,0],
+					"h":170,
+				},
+			]
+		}
+	]
+
+}

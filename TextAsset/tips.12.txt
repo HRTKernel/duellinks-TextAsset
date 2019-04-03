@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Duellantenlevel"
+    },
+    {
+      "style": "TextS",
+      "extext": "Je höher das Level deines Gegners ist, desto besser sind die Belohnungen nach dem Duell."
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

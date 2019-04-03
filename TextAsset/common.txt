@@ -1,0 +1,216 @@
+{
+
+
+	"Page":{"tp":"page","padding":[20,0,20,0],"textcolor":[255,255,255,255]},
+	
+	"PageHeaderPadding":{"tp":"div","h":80},
+	
+	"PageBlueButton":{"tp":"div","h":70,"flex":[1,-1],"bgimage":"ButtonB" },
+
+	"Dialog":{"tp":"dialog","back":true},
+	
+	"DialogList":{"tp":"dialog","padding":[20,66,20,25],"back":true},
+
+	"Body":{"tp":"body","padding":[10,10,10,10],"textcolor":[255,255,255,255]},
+	
+	
+	"Space":{"tp":"div","flex":[-1,1]},
+	
+	"FixSpaceM":{"tp":"div","h":20},
+	
+	"FixSpaceS":{"tp":"div","h":10},
+	
+	"FixSpaceSS":{"tp":"div","h":5},
+	
+		
+	
+	"Seek":{
+		"if":"seek",
+		"tp":"seek",
+		"label":"3/5",
+		"first":"menu://close",
+		"next":"menu://close",
+		"prev":"menu://close",
+		"last":"menu://close"
+	},
+
+
+	"TextSS":{"alias":{"text":"extext"},"tp":"text","fontsize":18,"line":1.25},
+	
+	"TextS":{"alias":{"text":"extext"},"tp":"text","fontsize":20,"line":1.25},
+
+	"TextM":{"alias":{"text":"extext"},"tp":"text","fontsize":22,"line":1.25},
+	
+	"TextL":{"alias":{"text":"extext"},"tp":"text","fontsize":28,"line":1.25},
+	
+
+
+	"Banner":{"tp":"img","size":[450,112]},	
+
+	"InfoCard":{
+		"alias":{
+			"src":"sub[0].src"
+		},
+		"tp":"hl",
+		"padding":[0,0,0,0],
+		"sub":[
+			{"tp":"img","h":256,"w":176,"src":""},
+			{"tp":"div","flex":[1,-1] }
+		]
+	
+	},
+	
+	
+	"Yes":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.YES'/>"},	
+	
+	"No":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.NO'/>","se":"cancel"},
+	
+	"Ok":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.OK'/>"},	
+	
+	"Check":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.CHECK'/>"},
+	
+	"Cancel":{"tp":"btn","bgimage":"ButtonR","label":"<text id='IDS_SYS.CANCEL'/>","se":"cancel"},
+	
+	"Close":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.CLOSE'/>","se":"cancel","link":"menu://back"},
+	
+	"Back":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.BACK'/>","se":"cancel"},
+	
+	"Decision":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.DECISION'/>"},
+
+	"Other":{"tp":"btn","bgimage":"ButtonG","se":"","label":""},
+
+	"GreenButton":{
+		"tp":"btn",
+		"bgimage":"ButtonG",
+		"textcolor":[255,255,255,255]
+	},
+		
+	"YesNoButton":{
+		"alias":{
+			"YesLabel":"sub[3].label",
+			"YesLink":"sub[3].link",
+			"YesBgimage":"sub[3].bgimage",
+			"YesBgimageDisable":"sub[3].disableimage",
+			"NoLabel":"sub[1].label",
+			"NoLink":"sub[1].link",
+			"NoBgimage":"sub[1].bgimage",
+			"NoBgimageDisable":"sub[1].disableimage",
+		},
+		"tp":"hl",
+		"padding":[0,0,0,0],
+		"sub":[
+			{"tp":"div","flex":[1,-1] },
+			{"tp":"btn","h":70,"w":220,"bgimage":"ButtonR","disableimage":"ButtonE","label":"<text id='IDS_SYS.NO'/>","se":"cancel"},
+			{"tp":"div","flex":[1,-1] },
+			{"tp":"btn","h":70,"w":220,"bgimage":"ButtonB","disableimage":"ButtonE","label":"<text id='IDS_SYS.YES'/>"},
+			{"tp":"div","flex":[1,-1] },
+		]
+	
+	},
+
+
+	"NextButton":{
+		"alias":{
+			"label":"sub[1].label",
+			"link":"sub[1].link"
+		},
+		"tp":"hl",
+		"padding":[0,0,0,0],
+		"sub":[
+			{"tp":"div", "flex":[1,-1] },
+			{"tp":"btn","bgimage":"ButtonBs","h":50,"w":300},
+			{"tp":"div","flex":[-1,1]}
+		]
+	
+	},	
+	
+	
+	"Icon":{
+		"overwrite":"item",
+		"tp":"hl",
+		"padding":[0,0,0,0],
+		"sub":[
+			{"tp":"div", "flex":[1,-1] },
+			{"tp":"img","h":100,"w":100},
+			{"tp":"div","flex":[-1,1]}
+		]
+	
+	},	
+
+
+
+    "deckentry":{
+        "alias":{
+            "uname":"@.Fixed/NameText.text",
+            "dname":"@.Fixed/DeckText.text",
+            "sname":"@.Fixed/SkillText.text",
+            "date":"@.Fixed/DateText.text",
+            "star":"@.Fixed/StarText.text",
+            "rankdisp":"@.Fixed/Rank.active",
+            "rankname":"@.Fixed/Rank/RankText.text",
+            "c1":"@.Fixed/CardNumbers/NumberText1.text",
+            "c2":"@.Fixed/CardNumbers/NumberText2.text",
+            "c3":"@.Fixed/CardNumbers/NumberText3.text",
+            "c4":"@.Fixed/CardNumbers/NumberText4.text",
+            "chara":"@.Fixed/Chara.defimage.arg0"
+        },
+        "tp":"deckinfo",
+        "delayCreate":[500,262],
+        "@":{
+            "Fixed/NameText":{"text":""},
+            "Fixed/DeckText":{"text":""},
+            "Fixed/DateText":{"text":""},
+            "Fixed/SkillText":{"text":""},
+            "Fixed/StarText":{"text":""},
+            "Fixed/Rank":{"active":false},
+            "Fixed/Rank/RankText":{"text":""},
+            "Fixed/CardNumbers/NumberText1":{"text":"0"},
+            "Fixed/CardNumbers/NumberText2":{"text":"0"},
+            "Fixed/CardNumbers/NumberText3":{"text":"0"},
+            "Fixed/CardNumbers/NumberText4":{"text":"0"},
+            "Fixed/Chara":{"defimage":{"src":"CharaIcon","arg0":"0000"}}
+        }
+    },
+    
+    "deckcontribute":{
+        "tp":"deckcontribute",
+    },
+ 
+
+
+    "FramePage":{
+        "alias":{
+            "sub":"sub[1].sub[0].sub",
+            "subpadding":"sub[1].sub[0].padding",
+            "label":"sub[1].sub[1].sub[0].extext",
+            "info":"sub[0].sub[0].extext",
+            "infodisp":"sub[0].visible",
+            "cancel":"sub[3].visible"
+        },
+        "tp":"page",
+        "padding":[20,100,20,0],
+        "header":{ "back":true, "home":true },
+        "exbg":"Prefabs/Shop/Materials/3DMenuBG",
+        "title": "TITLE",
+        "sub": [
+            {"tp":"div","bg":false,"flex":[1,-1],"h":80,"sub":[{"tp":"text","y":20,"color":"white","align":"middle-center","fontsize":26,"extext":""}]},
+            {"tp":"div","flex":[1,1],"textcolor":[255,255,255,255],"bgimage":"ListBase","sub": [
+            	{"tp":"body","padding":[5,25,5,100],"bg":false,"sub":[]},
+            	{"tp":"div","bgimage":"ListTitle","layout":false,"anchor":[0,1,1,1],"size":[0,40],"y":0,"sub":[ {"tp":"text","extext":"SUBTITLE","align":"middle-center","color":"white"} ]}
+            ]},
+            {"tp":"img","src":"ScrollCover","layout":false,"anchor":[0.5,0,0.5,0],"pivot":[0.5,0],"size":[790,200],"y":0},
+            {"tp":"btn","visible":false,"style":"cancel","link":"menu://back"}
+        ]
+    },
+	
+	
+	
+	"green":{"bgimage":"ButtonG"},
+	"yes":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.YES'/>"},
+	"no":{"tp":"btn","bgimage":"ButtonR","label":"<text id='IDS_SYS.NO'/>","se":"cancel"},
+	"close":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.CLOSE'/>","se":"cancel","link":"menu://back"},
+	"ok":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.OK'/>"},	
+	"check":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.CHECK'/>"},
+	"cancel":{"tp":"btn","bgimage":"ButtonR","label":"<text id='IDS_SYS.CANCEL'/>","se":"cancel"},
+	"back":{"tp":"btn","bgimage":"ButtonB","label":"<text id='IDS_SYS.BACK'/>","se":"cancel"}
+}

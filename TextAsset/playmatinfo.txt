@@ -1,0 +1,7 @@
+{
+  "type": "switching",
+  "interval": "3.0",
+  "switchTime": "1.0",
+  "numTextures": 4,
+  "main":"03"
+}

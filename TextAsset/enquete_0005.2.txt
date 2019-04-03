@@ -1,0 +1,90 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0005",
+  "onload": "forth:: keychange 1 \" q3\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Wie einfach ist es, sich zu duellieren oder ein Deck zu ändern?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Schwer"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Einfach"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q3",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Welche weiteren Funktionen für Duelle oder Deckbau wären sinnvoll? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 2,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0005.close"
+    }
+  ]
+}

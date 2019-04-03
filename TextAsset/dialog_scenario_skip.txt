@@ -1,0 +1,22 @@
+{
+	"style":"Dialog",
+	"sub":[
+		{
+			"tp":"vl",
+			"sub":[			
+					{
+						"tp":"text",
+						"style":"TextM",
+						"align":"middle-center",
+						"extext": "<htarg id='skip_text'/>"
+					}
+			]
+		},
+		
+		{
+			"style":"YesNoButton",
+			"YesLink":["menu://close","menu://result.content.ScenarioPlayerPart?scenario_data=true&paramSkip=1"],
+			"NoLink":["menu://close","menu://result.content.ScenarioPlayerPart?scenario_data=true&paramSkip=0"]
+		}
+	]
+}

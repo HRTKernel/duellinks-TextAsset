@@ -1,0 +1,4 @@
+{
+	"Effect1":{"color":"#711313FF"},
+	"Effect2":{"color":"#FF2200FF"}
+}

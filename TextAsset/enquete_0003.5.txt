@@ -1,0 +1,72 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0003",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Hattest du Probleme mit dem Spiel oder der Steuerung? War irgendetwas schwer verständlich? Bitte spezifische Probleme angeben (optional)."
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Weitere Anmerkungen oder Wünsche (optional)?"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie hast du von „Yu-Gi-Oh! Duel Links“ erfahren (optional)?\n[Bsp.: Offizielle Website, Offizieller Twitter-Account, Web-Nachrichten, soziale Medien (Facebook, Instagram etc.), Magazine, Seiten mit Spieleinformationen, Freunde/Bekannte, Event etc.]"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t3"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":3}"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 5,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0003.close"
+    }
+  ]
+}

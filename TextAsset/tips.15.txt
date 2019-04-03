@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Festgesetzte Ränge"
+    },
+    {
+      "style": "TextS",
+      "extext": "Von den folgenden Rängen wirst du nicht herabgestuft, egal, wie oft du verlierst: Anfänger 1, Bronze 1, Silber 1, Gold 1, Platin 1, Legendär 1 und König der Spiele. \nDuelliere dich, so viel du willst!"
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

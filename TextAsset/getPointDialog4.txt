@@ -1,0 +1,191 @@
+{
+	"style": "Dialog"
+	,"loadtext": ["IDS_RESULT"]
+	,"loadse": ["SE_RESULT_TEXT_UP"]
+	,"title": "<htarg id='title'/>"
+	,"styledef": {
+		"ent": {
+			"alias": {
+				"i": "sub[0].sub[1].iid"
+				,"n": "sub[0].sub[1].count"
+				,"l": "sub[0].sub[0].sub[0].extext"
+				,"t": "sub[0].sub[0].sub[1].extext"
+				,"d": ["tween[0].delay","tween[1].delay","tween[2].delay"]
+				,"a": "tween[0].to"
+			}
+			,"tp": "vl"
+			,"padding": [20,0,20,0]
+			,"spacing": 0
+			,"groupAlpha": 1
+			,"fontsize": 35
+			,"sub": [
+				{
+					"tp": "hl"
+					,"padding": [0,0,0,0]
+					,"sub": [
+						{
+							"tp": "vl"
+							,"padding": [0,10,0,0]
+							,"sub": [
+								{
+									"tp": "text"
+									,"extext": "<text id='IDS_RESULT.EVENT_COMMON_ALREADY_GET'/>"
+									,"bestfit": true
+								}
+								,{
+									"tp": "text"
+									,"extext": ""
+								}
+							]
+						}
+						,{
+							"tp": "item"
+							,"iid": 0
+							,"iconsize": 80
+							,"buttonhide": true
+							,"iconbutton": true
+							,"icononly": true
+							,"label": ""
+							,"text": ""
+							,"count": 0
+						}
+					]
+				}
+				,{
+					"tp": "sp"
+				}
+			]
+			,"tween": [
+				{
+					"tween": "alpha"
+					,"label": "anim"
+					,"from": 1
+					,"to": 0.5
+					,"duration": 0.5
+					,"delay": 0
+					,"startDelay": 1
+				}
+				,{
+					"tween": "urlScheme"
+					,"label": "anim"
+					,"from": "se:SE_RESULT_TEXT_UP"
+					,"duration": 0.01
+					,"delay": 0
+				}
+				,{
+					"tween": "urlScheme"
+					,"label": "anim"
+					,"from": "alink://?tm=0.5"
+					,"duration": 0.01
+					,"delay": 0
+				}
+			]
+		}
+	}
+	,"oninit": "forth:'entry' gethtarg decjson dup dup arraylength dup 0 > if 1 - '.a' swap strcat 1.0 swap setobj 'sub[1].sub' setsrc else drop drop drop false 'sub[1].visible' setsrc false 'sub[2].visible' setsrc endif 'gr' gethtarg 'sub[0].sub[1].sub[0].sub[0].ratio' setsrc 'grt' gethtarg 'sub[0].sub[1].sub[0].sub[0].ratiotarget' setsrc 'rn' gethtarg 'sub[0].sub[2].sub[0].sub[1].sub[0].count' setsrc 'ri' gethtarg 'sub[0].sub[2].sub[0].sub[1].sub[0].iid' setsrc"
+	,"onbackoverride": "forth:'anim' tweenisplay if 'anim' 10 tweenforward else 'menu://back' openurl endif"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [0,0,0,0]
+			,"textcolor": [255,255,255,255]
+			,"sub": [
+				{
+					"tp": "event"
+					,"onStart": ["menu://show.GuageParts","menu://hide.ItemParts"]
+				}
+				,{
+					"tp": "vl"
+					,"bgimage": "ScrollBg"
+					,"padding": [20,100,20,100]
+					,"spacing": 10
+					,"id": "GuageParts"
+					,"sub": [
+						{
+							"tp": "div"
+							,"h": 40
+							,"sub": [
+								{
+									"tp": "guage"
+									,"ratiotarget": 0
+									,"ratio": 0
+									,"animtime": 1
+									,"framesize": [20,20]
+									,"bgimage": "Stroke"
+									,"text": "<size=20><htarg id=gt/></size>"
+									,"textoffset": [0,0]
+									,"bgcolor": "#08E9BCFF"
+									,"guagecolor": "#08E9BCFF"
+									,"onmaxfinish": ["menu://hide.GuageParts","menu://show.ItemParts"]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "vl"
+					,"id": "ItemParts"
+					,"padding": [20,100,20,100]
+					,"sub": [
+						{
+							"tp": "vl"
+							,"padding": [0,-55,0,-55]
+							,"sub": [
+								{
+									"tp": "text"
+									,"extext": "<htarg id=rt/>"
+									,"align": "middle-center"
+									,"color": "black"
+								}
+								,{
+									"tp": "hl"
+									,"align": "middle-center"
+									,"padding": [0,20,0,0]
+									,"sub": [
+										{
+											"tp": "item"
+											,"count": 0
+											,"iid": 2
+											,"icononly": true
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		,{
+			"tp": "body"
+			,"bgimage": "ScrollBg"
+			,"padding": [0,0,0,5]
+			,"spacing": 0
+			,"layout": true
+			,"h": 105
+			,"flex": [1,-1]
+			,"textcolor": [255,255,255,255]
+			,"sub": []
+		}
+		,{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"tp": "text"
+					,"color": "red"
+					,"fontsize": 30
+					,"bestfit": true
+					,"extext": "<text id='IDS_RESULT.EVENT_COMMON_ITEM_GET'/>"
+				}
+			]
+		}
+		,{
+			"style": "FixSpaceSS"
+		}
+		,{
+			"style": "Ok"
+			,"link": "menu://back"
+		}
+	]
+}

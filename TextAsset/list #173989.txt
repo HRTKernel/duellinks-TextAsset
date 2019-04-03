@@ -1,0 +1,346 @@
+{
+	"tp": "page"
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"header": {
+		"back": true
+		,"home": true
+	}
+	,"loadtext": ["IDS_KCREPORT"]
+	,"onhomeoverride": "<cwork path=KcReport.onhomeoverride>"
+	,"textcolor": "white"
+	,"title": "<text id='IDS_KCREPORT.SUB_TITLE002'/>"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"style": "PageHeaderPadding"
+				}
+				,{
+					"tp": "body"
+					,"bgcolor": "#00000000"
+					,"bgimage": ""
+					,"padding": [0,20,0,0]
+					,"spacing": 15
+					,"sub": [
+						{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://back.content"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO006'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT006'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report6.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/5/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO005'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT005'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report5.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/4/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO004'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<size=24><text id='IDS_KCREPORT.REPORT_TITLE_TEXT004'/></size>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report4.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/3/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO003'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT003'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report3.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/2/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO002'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT002'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report2.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/1/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO001'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT001'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report1.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"anchor": [0.5,0,0.5,0]
+					,"layout": false
+					,"pivot": [0.5,0]
+					,"size": [760,200]
+					,"src": "ScrollCover"
+				}
+			]
+		}
+	]
+}

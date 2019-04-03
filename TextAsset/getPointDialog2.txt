@@ -1,0 +1,103 @@
+{
+	"style":"Dialog",
+	"loadtext":["IDS_RESULT"],
+	"title":"<htarg id='title'/>",
+	"sub":[
+		{
+			"tp":"vl",
+			"bgimage":"ScrollBg",
+			"padding":[30,20,30,10],
+			"spacing":10,
+			"textcolor":[255,255,255,255],
+			"sub":[
+				{
+					"tp":"text",
+					"fontsize":30,
+					"align":"middle-left",
+					"layout":{"flex":[1,-1]},
+					"extext":"<text id='IDS_RESULT.EVAL_SCORE'/>",
+					"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":1.0 } ]
+				},
+				{
+					"tp":"hl",
+					"padding":[0,10,0,10],
+					"align":"lower-center",
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":30,
+							"align":"middle-left",
+							"extext":"<htarg id='sco'/>",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":1.0 } ]
+						},
+						{
+							"tp":"text",
+							"fontsize":30,
+							"color":"orange",
+							"align":"middle-left",
+							"extext":"x",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":1.5 } ]
+						},
+						{
+							"tp":"text",
+							"fontsize":30,
+							"color":"orange",
+							"align":"middle-left",
+							"extext":"<htarg id='mul'/>",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":1.5 } ]
+						},
+						{
+							"tp":"text",
+							"fontsize":30,
+							"align":"middle-center",
+							"layout":{"flex":[1,-1]},
+							"extext":"=",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":2.0 } ]
+						},
+						{
+							"tp":"text",
+							"fontsize":45,
+							"align":"middle-left",
+							"extext":"<htarg id='add'/>",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":2.0 } ]
+						}
+					]
+				},
+				{"tp":"sp"},
+				{
+					"tp":"hl",
+					"padding":[0,10,0,10],
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":45,
+							"align":"middle-left",
+							"bestfit":true,
+							"vertoverflow":false,
+							"layout":{"w":200,"h":45},
+							"extext":"<text id='IDS_RESULT.EVENT_TOTALPT'/>",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":2.5 } ]
+						},
+						{
+							"tp":"text",
+							"fontsize":45,
+							"align":"middle-right",
+							"layout":{"flex":[1,-1]},
+							"extext":"<htarg id='tot'/>",
+							"tween":[ { "tween":"alpha","label":"anim","from":0,"to":1,"duration":0.01,"delay":2.5 } ]
+						}
+					]
+				}
+			],
+			"tween":[ 
+				{ "tween":"urlScheme","label":"anim","from":"se:SE_SELECT","duration":0.01,"delay":1.0 },
+				{ "tween":"urlScheme","label":"anim","from":"se:SE_SELECT","duration":0.01,"delay":1.5 },
+				{ "tween":"urlScheme","label":"anim","from":"se:SE_SELECT","duration":0.01,"delay":2.0 },
+				{ "tween":"urlScheme","label":"anim","from":"se:SE_SELECT","duration":0.01,"delay":2.5 }
+			]
+		},
+		{"style":"FixSpaceSS"},
+		{"style":"Ok","link":"menu://back"}
+	],
+	"onbackoverride":"forth:'anim' tweenisplay if 'anim' 10 tweenforward else 'menu://back' openurl endif"
+}

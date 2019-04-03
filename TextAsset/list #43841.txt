@@ -1,0 +1,100 @@
+{
+	"tp": "page"
+	,"debugcwork": {
+		"KcReportNew": "Debug/cwork/KcReport/page"
+	}
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"header": {
+		"back": true
+		,"home": true
+	}
+	,"loadtext": ["IDS_KCREPORT"]
+	,"textcolor": "white"
+	,"title": "<text id='IDS_KCREPORT.SUB_TITLE002'/>"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"style": "PageHeaderPadding"
+				}
+				,{
+					"tp": "body"
+					,"bgcolor": "#00000000"
+					,"bgimage": ""
+					,"padding": [0,20,0,100]
+					,"spacing": 15
+					,"subloop": "cwork://KcReportNew.page.oldlist"
+					,"subloopreverse": true
+					,"sub": [
+						{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"visibleif": {
+								"0": "KcReportNew.page.oldlist.old%subloop1%.visible=="
+								,"1": "KcReportNew.page.oldlist.old%subloop1%.visible==true"
+							}
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "link://KcReportNew.page.oldlist.old%subloop1%.link"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO%subloop001%'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<cwork path=KcReportNew.page.oldlist.old%subloop1%.title>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"createif": "KcReportNew.page.oldlist==%subloop1%"
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "file://Images/Menu/#/GUI_T_MenuIconNew"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"anchor": [0.5,0,0.5,0]
+					,"layout": false
+					,"pivot": [0.5,0]
+					,"size": [760,200]
+					,"src": "ScrollCover"
+				}
+			]
+		}
+	]
+}

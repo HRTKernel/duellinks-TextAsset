@@ -1,0 +1,203 @@
+{
+	"YubelEV_OBJ":{
+		"Street01":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_st_main_tex01":				{"color":"#FDD8D8FF"},
+				"GX_ST_tree01":					{"color":"#FDD8D8FF"},
+				"st_main_tex01":				{"color":"#E6BFBFFF"},
+				"GX_Gate_Mountain-Mountain1":	{"color":"#D68A8AFF"},
+				"GX_ST_sea":					{"color":"#D68A8AFF"},
+				"GX_ST_half_alp":				{"color":"#D68A8AFF"},
+				"EFF_sprash_sea":				{"color":"#D68A8AFF"},
+				"GX_ST_alp":					{"color":"#EEB3B3FF"},
+				"GX_ST_tree03_alp":				{"color":"#EEB3B3FF"},
+				"GX_st_mount_tex01":			{"color":"#D68A8AFF"},
+			},
+			"template":{
+				"GX_Street01":{},
+				"YubelEV_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Themepark01":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":30.0,
+				"FogEnd":130.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_TP_mountain":					{"color":"#D68A8AFF"},
+				"GX_TP_mainTex01":					{"color":"#E6BFBFFF"},
+				"GX_TP_Alphatex01":					{"color":"#E6BFBFFF"},
+				"GX_TP_Half_alphatex":				{"color":"#E6BFBFFF"},
+				"water_tex01":						{"color":"#E6BFBFFF"},
+				"GX_TP_water_02":					{"color":"#E6BFBFFF"},
+				"EFF_splscmn_02_htc_MAT":			{"color":"#E6BFBFFF"},
+				"themepark_tex01":					{"color":"#FDD8D8FF"},
+				"GX_Themepark_shadow-tex02_mat":	{"color":"#FDD8D8FF"},
+			},
+			"template":{
+				"GX_Themepark01":{},
+				"YubelEV_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Downtown01":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"CameraFar":100.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_DT_alp":		{"color":"#EEB3B3FF"},
+				"GX_DT_tree03_alp":	{"color":"#EEB3B3FF"},
+				"GX_DT_tree01":		{"color":"#E6BFBFFF"},
+				"GX_DT_tree02":		{"color":"#E6BFBFFF"},
+				"GX_DT_main":		{"color":"#E6BFBFFF"},
+				"Dt_various_main":	{"color":"#E6BFBFFF"},
+				"GX_DT_half_alp":	{"color":"#E6BFBFFF"},
+				"GX_ST_sea":		{"color":"#D68A8AFF"},
+			},
+			"template":{
+				"GX_Downtown01":{},
+				"YubelEV_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Park01":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_Gate_Mountain-Mountain1":		{"color":"#D68A8AFF"},
+				"GX_Gate_EX_park_tex01_EX":			{"color":"#D9B6B6FF"},
+				"GX_Gate_Halfalpha-park_tex01_EX":	{"color":"#D9B6B6FF"},
+				"water_tex01":						{"color":"#D9B6B6FF"},
+				"park_alphatex01":					{"color":"#CA9494FF"},
+				"park_alphatex02":					{"color":"#CA9494FF"},
+				"park_gate01":						{"color":"#FDD8D8FF"},
+				"park_gate02":						{"color":"#FDD8D8FF"},
+				"park_tex01":						{"color":"#FDD8D8FF"},
+			},
+			"template":{
+				"GX_Park01":{},
+				"YubelEV_OBJ":{},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Street02":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"CameraFar":150.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_ST_tree01":					{"color":"#FDD8D8FF"},
+				"st_main_tex01":				{"color":"#E6BFBFFF"},
+				"GX_Gate_Mountain-Mountain1":	{"color":"#D68A8AFF"},
+				"GX_ST_sea":					{"color":"#D68A8AFF"},
+				"GX_ST_half_alp":				{"color":"#D68A8AFF"},
+				"EFF_sprash_sea":				{"color":"#D68A8AFF"},
+				"GX_ST_alp":					{"color":"#EEB3B3FF"},
+				"GX_ST_tree03_alp":				{"color":"#EEB3B3FF"},
+				"GX_st_mount_tex01":			{"color":"#D68A8AFF"},
+			},
+			"template":{
+				"GX_Street01":{},
+				"YubelEV_OBJ":{"area_name":"Street01"},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Themepark02":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":30.0,
+				"FogEnd":130.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_TP_mountain":					{"color":"#D68A8AFF"},
+				"GX_TP_mainTex01":					{"color":"#E6BFBFFF"},
+				"GX_TP_Alphatex01":					{"color":"#E6BFBFFF"},
+				"GX_TP_Half_alphatex":				{"color":"#E6BFBFFF"},
+				"water_tex01":						{"color":"#E6BFBFFF"},
+				"GX_TP_water_02":					{"color":"#E6BFBFFF"},
+				"EFF_splscmn_02_htc_MAT":			{"color":"#E6BFBFFF"},
+				"themepark_tex01":					{"color":"#FDD8D8FF"},
+				"GX_Themepark_shadow-tex02_mat":	{"color":"#FDD8D8FF"},
+			},
+			"template":{
+				"GX_Themepark01":{},
+				"YubelEV_OBJ":{"area_name":"Themepark01"},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Downtown02":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"CameraFar":100.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_DT_alp":		{"color":"#EEB3B3FF"},
+				"GX_DT_tree03_alp":	{"color":"#EEB3B3FF"},
+				"GX_DT_tree01":		{"color":"#E6BFBFFF"},
+				"GX_DT_tree02":		{"color":"#E6BFBFFF"},
+				"GX_DT_main":		{"color":"#E6BFBFFF"},
+				"Dt_various_main":	{"color":"#E6BFBFFF"},
+				"GX_DT_half_alp":	{"color":"#E6BFBFFF"},
+				"GX_ST_sea":		{"color":"#D68A8AFF"},
+			},
+			"template":{
+				"GX_Downtown01":{},
+				"YubelEV_OBJ":{"area_name":"Downtown01"},
+				"Hanabi_Fubuki":{}
+			},
+		},
+		"Park02":{
+			"areaOptions":{
+				"FogColor":"#C56DB4FF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#0B000FFF",
+			},
+			"changeMaterials":{
+				"GX_Gate_Mountain-Mountain1":		{"color":"#D68A8AFF"},
+				"GX_Gate_EX_park_tex01_EX":			{"color":"#D9B6B6FF"},
+				"GX_Gate_Halfalpha-park_tex01_EX":	{"color":"#D9B6B6FF"},
+				"water_tex01":						{"color":"#D9B6B6FF"},
+				"park_alphatex01":					{"color":"#CA9494FF"},
+				"park_alphatex02":					{"color":"#CA9494FF"},
+				"park_gate01":						{"color":"#FDD8D8FF"},
+				"park_gate02":						{"color":"#FDD8D8FF"},
+				"park_tex01":						{"color":"#FDD8D8FF"},
+			},
+			"template":{
+				"GX_Park01":{},
+				"YubelEV_OBJ":{"area_name":"Park01"},
+				"Hanabi_Fubuki":{}
+			},
+		}
+	}
+}

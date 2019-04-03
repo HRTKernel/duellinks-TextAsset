@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Schwierige Ranglistenduelle"
+    },
+    {
+      "style": "TextS",
+      "extext": "Erhalte eine Belohnung, wenn du bestimmte Ränge aufsteigst. Kämpf dich an die Spitze!"
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

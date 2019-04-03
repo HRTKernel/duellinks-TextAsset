@@ -1,0 +1,77 @@
+{
+	"tp":"dialog",
+	"loadtext":["IDS_FRIEND","IDS_PVP"],
+	"title":"<text id='IDS_FRIEND.INFO'/>",
+	"textcolor":"white",
+	"onload": "forth:\" online\" gethtarg \" true\" strcmp if \" htjson://hide.online\" openurl else \" htjson://hide.offline\" openurl endif",
+	"sub":[
+		{
+			"tp":"vl",
+			"padding":[5,5,5,5],
+			"spacing":0,
+			"bgimage":"ScrollBg",
+			"sub":[
+				{
+					"tp":"vl",
+					"padding":[5,0,5,0],
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":22,
+							"extext":"<color=yAqua><size=18><text id='IDS_FRIEND.DUELIST_ID'/> <htarg id='user_code' length=3/>-<htarg id='user_code' start=3 length=3/>-<htarg id='user_code' start=6 length=3/></size></color>\n<htarg id='user_name'/>"
+						},
+						{
+							"tp":"sp"
+						},
+						{
+							"tp":"hl",
+							"padding":[0,0,0,0],
+							"sub":[
+								{
+									"tp":"img",
+									"size":[24,24],
+									"src":"IconLogIn"
+								},
+								{
+									"tp":"text",
+									"id":"online",
+									"fontsize":20,
+									"extext":"<text id='IDS_PVP.NOW_ONLINE'/>"
+								},
+								{
+									"tp":"text",
+									"id":"offline",
+									"fontsize":20,
+									"extext":"<text id='IDS_PVP.NOW_OFFLINE'/>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"tp":"btn",
+					"label":"<text id='IDS_FRIEND.CUT'/>",
+					"link":["menu://back","file://Htjson/dialog/friend/CutConfirm?user_code=<htarg id='user_code' enc='url'/>&user_name=<htarg id='user_name' enc='url'/>"],
+					"bgimage":"ButtonR"
+				},
+				{
+					"tp":"btn",
+					"id":"offline",
+					"disabled":true,
+					"bgimage":"ButtonE"
+					"label":"<text id='IDS_FRIEND.DUEL_REQUEST'/>",
+				},
+				{
+					"tp":"btn",
+					"id":"online",
+					"label":"<text id='IDS_FRIEND.DUEL_REQUEST'/>",
+					"link":["menu://back","menu://popbyname.base.Chat","menu://swapbottom.content/Prefabs/Pvp/PvpMainMenu?pid=<htarg id='user_code' enc='url'/>&boot=1"]
+				}
+			]
+		},
+		{
+			"style":"Close",
+			"link":"menu://back"
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Zu den Fusionsmonstern"
+    },
+    {
+      "style": "TextS",
+      "extext": "Ein Fusionsmonster wird mit der Zauberkarte „Polymerisation“ beschworen. \n\nNachdem der Zauber „Polymerisation“ aktiviert wird, musst du die Fusionsmaterialien, die auf der Fusionsmonsterkarte aufgelistet sind, entweder von deiner Hand oder dem Spielfeld auf den Friedhof legen."
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

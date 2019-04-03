@@ -1,0 +1,14 @@
+{
+	"fog":{
+		"type"         : "linear",
+		"color"        : [255,186,161,255],
+		"startDistance": 70,
+		"endDistance"  : 400
+	},
+	"placement":"ground",
+	"transform":{
+		"position" : [0,0,0],
+		"rotation" : [0,0,0],
+		"scale"    : [1,1,1]
+	}
+}

@@ -1,0 +1,172 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0009",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Wie oft nutzt du die Kommentarfunktion im Duellraum (Beta)? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c6"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "1. Oft"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c7"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "2. Gelegentlich"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c8"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "3. Selten"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c9"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "4. Die Kommentarfunktion war mir nicht bekannt"
+            }
+          ]
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Gibt es festgelegte Phrasen, die du in der Kommentarfunktion gerne verfügbar hättest? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 3,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0009.close"
+    }
+  ]
+}

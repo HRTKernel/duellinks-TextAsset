@@ -1,0 +1,509 @@
+{
+    "Prefab_MarikEV_DM": {
+        "Models/Single/Event/Ev0014/REPLACE_PARAM_AREA_NAME/Prefab_MarikEV": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/Themepark01/Collider_Darkcastle": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "Prefab_MarikEV_GX": {
+        "Models/Single/Event/Ev0014/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Prefab_MarikEV": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/Themepark01/Collider_Darkcastle": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "R_Dragon_OBJ": {
+        "Models/Single/Event/EV0037/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/R_Dragon_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Toonworld": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "TagDuel_OBJ": {
+        "Models/Single/Event/EV0029/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/TagDuel_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "Position_locator/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Toonworld": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "Prefab_BigBattleship": {
+        "Models/Single/Event/EV0028/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_Prefab_BigBattleship": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "componentPoolPath": "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/ComponentPool_Prefab_BigBattleship",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "Transform_Battleship/BigBattleship/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Toonworld": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "Hanabi_Fubuki": {
+        "Models/Single/Event/Hanabi/Hanabi": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "preparationActions": {
+                "MapLoadAction_CheckLoadStatus": {
+                    "checkClientWork": { "path": "Single.Map.Hanabi" },
+                    "expression": { "equal": 1 }
+                }
+            }
+        },
+        "Models/Single/Event/Kamifubuki/kamifubuki": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "preparationActions": {
+                "MapLoadAction_CheckLoadStatus": {
+                    "checkClientWork": { "path": "Single.Map.Kamifubuki" },
+                    "expression": { "equal": 1 }
+                }
+            }
+        }
+    },
+    "DUEL_ISLAND_OBJ": {
+        "Models/Single/Event/EV0033/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Duelisland_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "Position_locator/mapmark_Event"
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "DC_OBJ": {
+        "Models/Single/Event/EV0039/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/DC_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "Position/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Position/MainOBJ/Monster01": {
+                        "DC_Display01": {
+                            "_MainTex": "cwork://Single.Map.EventObjectTexture001"
+                        }
+                    },
+                    "Position/MainOBJ/Monster02": {
+                        "DC_Display02": {
+                            "_MainTex": "cwork://Single.Map.EventObjectTexture002"
+                        }
+                    },
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "CD_OBJ": {
+        "Models/Single/Event/EV0045/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/CD_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Toonworld": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "Prefab_WCS2017": {
+        "Models/Single/Event/Ev0010/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Prefab_WCS2018": {
+            "priority": 2,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "WCS2017obj/Movelocator/mapmark_Event"
+                }
+            },
+            "groupName": "eventObject"
+        },
+        "Prefabs/Single/Single3D/Street01/Collider_Toonworld": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "MW_OBJ": {
+        "Models/Single/Event/EV0044/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/MW_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "transform/MW_Logo/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "MWHonda_OBJ": {
+        "Models/Single/Event/Ev0044_02/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_MWHonda_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "transform/MW_Logo/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "YubelEV_OBJ": {
+        "Models/Single/Event/EV0047/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/YubelEV_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "groupName": "eventObject",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "YubelEV/YubelEye/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider",
+            "groupName": "eventObject"
+        }
+    },
+    "Tower_Light_OBJ": {
+        "Models/Single/Event/Ev0049/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_Tower_Light_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    },
+    "DA_Island_OBJ": {
+        "Models/Single/Event/Ev0050/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_DA_Island_OBJ": {
+            "priority": 2,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "UP_DOWN_node/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    },
+    "Ushio_OBJ": {
+        "Models/Single/Event/Ev0053/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Ushio_OBJ": {
+            "priority": 3,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    },
+    "Jack_OBJ": {
+        "Models/Single/Event/Ev0056/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_Jack_OBJ": {
+            "priority": 3,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "MoveLocator/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    },
+    "Prefab_KCCup": {
+        "Models/Single/Event/Ev0003/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Prefab_KCCup":{
+		    "priority":2,
+			"type":"Fbx",
+			"finishActions":{
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "movelocator/mapmark_KCCup"
+                }
+			}
+		},
+        "Models/Single/Event/Map_BattleShip/REPLACE_PARAM_SERIES_NAME/REPLACE_PARAM_AREA_NAME/Prefab_BattleShip": {
+            "priority": 2,
+            "type": "Fbx"
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Toonworld":{
+            "priority": 1,
+            "type": "Collider"
+        }
+    },
+    "Kenzan_OBJ": {
+        "Models/Single/Event/Ev0062/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_Kenzan_OBJ": {
+            "priority": 3,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "UP_Down/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    }
+}

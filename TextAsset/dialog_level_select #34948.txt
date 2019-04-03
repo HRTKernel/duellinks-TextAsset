@@ -1,0 +1,215 @@
+{
+	"style": "Dialog"
+	"loadtext":[ "IDS_EVE0007AB" ],
+	,"title": "<text id='IDS_EVE0007AB.DLG_GATESELECT_TITLE'/>"
+	,"backEnable": false
+	,"sub": [
+		{"style": "FixSpaceM"}
+		,{
+			"tp": "text"
+			,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_GATE'/>"
+			,"align": "middle-center"
+		}
+		,{
+			"tp": "hl"
+			,"sub": [
+				{
+					"tp": "vl"
+					,"bgimage": "ButtonB"
+					,"link": ["menu://close","menu://result.content.ScenarioPlayerPart?scenario_data=true&paramA=0"]
+					,"size": [220,400]
+					,"layout": true
+					,"sub": [
+						{
+							"tp": "img"
+							,"src": "file://Event/Ev0007/Images/#/GUI_T_Detail_ImgDoor01"
+							,"size": [190,220]
+							,"aspect": true
+							,"layout": false
+							,"pos": [0,55]
+						}
+						,{
+							"tp": "div"
+							,"size": [150,220]
+							,"sub": []
+						}
+						,{
+							"tp": "text"
+							,"extext": "<htarg id='llv'/>"
+							,"color": "white"
+							,"fontsize": 26
+							,"outline": "black"
+							,"align": "middle-center"
+						}
+						,{
+							"tp": "vl"
+							,"bgimage": "SelectTitleBg"
+							,"layout": true
+							,"padding": [10,10,10,10]
+							,"spacing": 2
+							,"sub": [
+								{
+									"tp": "text"
+									,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_BONUS'/>"
+									,"fontsize": 16
+									,"color": "#27ffd4ff"
+								}
+								,{
+									"tp": "sp"
+									,"color": "#27ffd4ff"
+									,"bgimage": "SeparatorDot2"
+								}
+								,{
+									"tp": "vl"
+									,"padding": [0,0,0,0]
+									,"expandwidth": true
+									,"spacing": 4
+									,"sub": [
+										{
+											"tp": "hl"
+											,"textcolor": "white"
+											,"expandwidth": true
+											,"padding": [0,0,0,0]
+											,"sub": [
+												{
+													"tp": "text"
+													,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_WIN'/>"
+													,"fontsize": 16
+													,"align": "left"
+												}
+												,{
+													"tp": "text"
+													,"extext": "<htarg id='lwp'/>"
+													,"fontsize": 16
+													,"align": "right"
+												}
+											]
+										}
+										,{
+											"tp": "hl"
+											,"textcolor": "white"
+											,"expandwidth": true
+											,"padding": [0,0,0,0]
+											,"sub": [
+												{
+													"tp": "text"
+													,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_LOSE'/>"
+													,"fontsize": 16
+													,"align": "left"
+												}
+												,{
+													"tp": "text"
+													,"extext": "<htarg id='llp'/>"
+													,"fontsize": 16
+													,"align": "right"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "vl"
+					,"bgimage": "ButtonB"
+					,"link": ["menu://close","menu://result.content.ScenarioPlayerPart?scenario_data=true&paramA=1"]
+					,"size": [220,400]
+					,"layout": true
+					,"sub": [
+						{
+							"tp": "img"
+							,"src": "file://Event/Ev0007/Images/#/GUI_T_Detail_ImgDoor02"
+							,"size": [190,220]
+							,"aspect": true
+							,"layout": false
+							,"pos": [0,55]
+						}
+						,{
+							"tp": "div"
+							,"size": [150,220]
+							,"sub": []
+						}
+						,{
+							"tp": "text"
+							,"extext": "<htarg id='rlv'/>"
+							,"color": "white"
+							,"fontsize": 26
+							,"outline": "black"
+							,"align": "middle-center"
+						}
+						,{
+							"tp": "vl"
+							,"bgimage": "SelectTitleBg"
+							,"layout": true
+							,"padding": [10,10,10,10]
+							,"spacing": 2
+							,"sub": [
+								{
+									"tp": "text"
+									,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_BONUS'/>"
+									,"fontsize": 16
+									,"color": "#27ffd4ff"
+								}
+								,{
+									"tp": "sp"
+									,"color": "#27ffd4ff"
+									,"bgimage": "SeparatorDot2"
+								}
+								,{
+									"tp": "vl"
+									,"padding": [0,0,0,0]
+									,"expandwidth": true
+									,"spacing": 4
+									,"sub": [
+										{
+											"tp": "hl"
+											,"textcolor": "white"
+											,"expandwidth": true
+											,"padding": [0,0,0,0]
+											,"sub": [
+												{
+													"tp": "text"
+													,"extext": "<text id='IDS_EVE0007AB.DLG_GATESELECT_NONE'/>"
+													,"fontsize": 16
+													,"align": "left"
+												}
+												,{
+													"tp": "text"
+													,"extext": ""
+													,"fontsize": 16
+													,"align": "right"
+												}
+											]
+										}
+										,{
+											"tp": "hl"
+											,"textcolor": "white"
+											,"expandwidth": true
+											,"padding": [0,0,0,0]
+											,"sub": [
+												{
+													"tp": "text"
+													,"extext": ""
+													,"fontsize": 16
+													,"align": "left"
+												}
+												,{
+													"tp": "text"
+													,"extext": ""
+													,"fontsize": 16
+													,"align": "right"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

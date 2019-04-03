@@ -1,0 +1,75 @@
+{
+  "tp": "dialog",
+  "title": "Event-Umfrage",
+  "sharedcontext": "enquete_0010",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Möchtest du uns sonst noch etwas zum Event „Gebrüder Paradox: Wächter des Tors“ mitteilen? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Hattest du Schwierigkeiten, das Event zu verstehen oder es zu spielen? <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns deine Wünsche für künftige Events mit <color=yAqua>(Optional)</color>."
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t3"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":10}"
+        },
+        {
+          "style": "FixSpaceM"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 5,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0010.close"
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+	"tp": "page"
+	,"debugcwork": {
+		"KcReportNew": "Debug/cwork/KcReport/page"
+	}
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"header": {
+		"back": true
+		,"home": true
+		,"buttons": [
+			{
+				"label": "<text id='IDS_KCREPORT.BUTTON001'/>"
+				,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/General/list"
+			}
+		]
+	}
+	,"loadtext": ["IDS_PVP","IDS_SKILL","IDS_DECK","IDS_KCREPORT","IDS_CARDLIST"]
+	,"onbackoverride": "<cwork path=KcReportNew.page.info.onbackoverride>"
+	,"onhomeoverride": "<cwork path=KcReportNew.page.info.onhomeoverride>"
+	,"onload": ["guide:on?chara=9011&face=0&mes=<cwork path=KcReportNew.page.top.talk>&messpd=60&offsetY=-65"]
+	,"textcolor": "white"
+	,"title": "<text id='IDS_KCREPORT.TITLE'/>"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"style": "PageHeaderPadding"
+				}
+				,{
+					"tp": "div"
+					,"bgimage": "KcTitleBase"
+					,"size": [1500,44]
+					,"sub": [
+						{
+							"tp": "vl"
+							,"padding": [5,20,40,0]
+							,"sub": [
+								{
+									"tp": "text"
+									,"align": "lower-left"
+									,"bestfit": true
+									,"bestfitmin": 13
+									,"color": "black"
+									,"extext": "<cwork path=KcReportNew.page.top.title>"
+									,"horizoverflow": false
+									,"pos": [3,3]
+									,"style": "TextM"
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "div"
+					,"layout": false
+					,"y": -290
+					,"sub": [
+						{
+							"tp": "text"
+							,"extext": "<text id='IDS_KCREPORT.DATE001'/><cwork path=KcReportNew.page.info.date>"
+							,"style": "TextSS"
+						}
+					]
+				}
+				,{
+					"tp": "div"
+					,"h": 180
+				}
+				,{
+					"tp": "body"
+					,"bgcolor": "#00000000"
+					,"bgimage": ""
+					,"padding": [0,0,0,100]
+					,"subloop": "cwork://KcReportNew.page.stagelist"
+					,"subloopreverse": true
+					,"sub": [
+						{
+							"tp": "vl"
+							,"padding": [0,0,0,10]
+							,"spacing": 0
+							,"suboption": {
+								"stagepath": "KcReportNew.page.stagelist.stage%subloop1%"
+							}
+							,"sub": [
+								{
+									"tp": "btn"
+									,"bgimage": "ButtonSB"
+									,"flex": [1,-1]
+									,"h": 60
+									,"label": "<cwork path=%stagepath%.title>"
+									,"labelsize": 20
+									,"se": "none"
+									,"toggleimage": "ButtonSY"
+								}
+								,{
+									"tp": "ac"
+									,"delayCreateSub": true
+									,"onexpand": "guide:on?mes=<cwork path=%stagepath%.talk>&messpd=30"
+									,"padding": [15,40,15,10]
+									,"spacing": 30
+									,"subloop": "cwork://%stagepath%.categorylist"
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [0,0,0,0]
+											,"suboption": {
+												"categorypath": "%stagepath%.categorylist.category%subloop1%"
+											}
+											,"sub": [
+												{
+													"tp": "vl"
+													,"padding": [0,0,0,0]
+													,"spacing": 40
+													,"sub": [
+														{
+															"tp": "vl"
+															,"bgimage": "ListFrame"
+															,"padding": [10,0,10,10]
+															,"sub": [
+																{
+																	"style": "FixSpaceM"
+																}
+																,{
+																	"tp": "vl"
+																	,"padding": [0,0,0,0]
+																	,"subloop": "cwork://%categorypath%.datalist"
+																	,"sub": [
+																		{
+																			"tp": "vl"
+																			,"padding": [0,0,0,0]
+																			,"suboption": {
+																				"datapath": "%categorypath%.datalist.data%subloop1%"
+																			}
+																			,"sub": [
+																				{
+																					"tp": "vl"
+																					,"createif": "%datapath%.type==card"
+																					,"padding": [0,0,0,0]
+																					,"sub": [
+																						{
+																							"tp": "btn"
+																							,"bgimage": "ButtonSB"
+																							,"flex": [1,-1]
+																							,"h": 50
+																							,"label": "<cwork path=%datapath%.title>"
+																							,"labelsize": 20
+																							,"se": "none"
+																							,"toggleimage": "ButtonSY"
+																						}
+																						,{
+																							"tp": "ac"
+																							,"delayCreateSub": true
+																							,"expand": false
+																							,"padding": [0,0,0,10]
+																							,"spacing": 0
+																							,"subloop": "cwork://%datapath%.list"
+																							,"sub": [
+																								{
+																									"tp": "hl"
+																									,"padding": [20,20,20,10]
+																									,"suboption": {
+																										"rankpath": "%datapath%.list.rank%subloop1%"
+																									}
+																									,"sub": [
+																										{
+																											"tp": "div"
+																											,"align": "lower-left"
+																											,"size": [80,64]
+																											,"sub": [
+																												{
+																													"tp": "text"
+																													,"align": "middle-left"
+																													,"colormap": {
+																														"<text id='IDS_KCREPORT.RANK001'/>": "#ffcc00"
+																														,"<text id='IDS_KCREPORT.RANK002'/>": "#00d8ff"
+																													}
+																													,"extext": "<text id='IDS_KCREPORT.RANK%subloop001%'/>"
+																													,"id": "CardRankLabel%rankpath%_%subloop1%"
+																													,"name": "card%subloop1%"
+																													,"style": "TextM"
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "div"
+																											,"flex": [1,-1]
+																											,"h": 64
+																											,"w": 180
+																											,"sub": [
+																												{
+																													"tp": "text"
+																													,"align": "middle-left"
+																													,"extext": "<card mrk=cwork://%rankpath%.id>"
+																													,"linkcolor": "CardRankLabel%rankpath%_%subloop1%"
+																													,"style": "TextM"
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "hl"
+																											,"padding": [0,0,0,0]
+																											,"sub": [
+																												{
+																													"tp": "card"
+																													,"cid": "30<cwork path=%rankpath%.id type=cardid>01"
+																													,"rare": "auto"
+																													,"scale": 0.72
+																													,"srcbtn": true
+																												}
+																											]
+																										}
+																									]
+																								}
+																								,{
+																									"tp": "sp"
+																								}
+																							]
+																						}
+																					]
+																				}
+																				,{
+																					"tp": "vl"
+																					,"createif": "%datapath%.type==skill"
+																					,"padding": [0,0,0,0]
+																					,"sub": [
+																						{
+																							"tp": "btn"
+																							,"bgimage": "ButtonSB"
+																							,"flex": [1,-1]
+																							,"h": 50
+																							,"label": "<cwork path=%datapath%.title>"
+																							,"labelsize": 20
+																							,"se": "none"
+																							,"toggleimage": "ButtonSY"
+																						}
+																						,{
+																							"tp": "ac"
+																							,"delayCreateSub": true
+																							,"expand": false
+																							,"padding": [0,0,0,10]
+																							,"spacing": 0
+																							,"subloop": "cwork://%datapath%.list"
+																							,"sub": [
+																								{
+																									"tp": "vl"
+																									,"padding": [0,0,0,0]
+																									,"suboption": {
+																										"rankpath": "%datapath%.list.rank%subloop1%"
+																									}
+																									,"sub": [
+																										{
+																											"tp": "hl"
+																											,"bgcolor": "#00000000"
+																											,"bgimage": "Fill"
+																											,"link": "link://KcReportNew.page.info.skilllink?skillid=cwork@%rankpath%.id"
+																											,"padding": [20,0,20,0]
+																											,"sub": [
+																												{
+																													"tp": "div"
+																													,"size": [80,64]
+																													,"sub": [
+																														{
+																															"tp": "text"
+																															,"align": "middle-left"
+																															,"colormap": {
+																																"<text id='IDS_KCREPORT.RANK001'/>": "#ffcc00"
+																																,"<text id='IDS_KCREPORT.RANK002'/>": "#00d8ff"
+																															}
+																															,"extext": "<text id='IDS_KCREPORT.RANK%subloop001%/>"
+																															,"fontsize": 24
+																															,"id": "SkillRankLabel%rankpath%_%subloop1%"
+																															,"name": "skill%subloop1%"
+																														}
+																													]
+																												}
+																												,{
+																													"tp": "div"
+																													,"flex": [1,-1]
+																													,"h": 64
+																													,"w": 270
+																													,"sub": [
+																														{
+																															"tp": "text"
+																															,"align": "middle-left"
+																															,"extext": "<skill id=cwork://%rankpath%.id type=name>"
+																															,"fontsize": 24
+																															,"linkcolor": "SkillRankLabel%rankpath%_%subloop1%"
+																														}
+																													]
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "sp"
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																				,{
+																					"tp": "vl"
+																					,"createif": "%datapath%.type==deck"
+																					,"padding": [0,0,0,0]
+																					,"sub": [
+																						{
+																							"tp": "btn"
+																							,"bgimage": "ButtonSB"
+																							,"flex": [1,-1]
+																							,"h": 50
+																							,"label": "<cwork path=%datapath%.title>"
+																							,"labelsize": 20
+																							,"se": "none"
+																							,"toggleimage": "ButtonSY"
+																						}
+																						,{
+																							"tp": "ac"
+																							,"delayCreateSub": true
+																							,"expand": false
+																							,"padding": [0,0,0,10]
+																							,"spacing": 0
+																							,"sub": [
+																								{
+																									"tp": "vl"
+																									,"padding": [15,10,20,10]
+																									,"spacing": 20
+																									,"sub": [
+																										{
+																											"tp": "vl"
+																											,"padding": [0,0,0,0]
+																											,"sub": [
+																												{
+																													"tp": "hl"
+																													,"align": "middle-left"
+																													,"bgcolor": "yDarkAqua"
+																													,"bgimage": "Base2"
+																													,"padding": [5,5,5,5]
+																													,"sub": [
+																														{
+																															"tp": "text"
+																															,"extext": "<text id='IDS_MENU.CHARACTER'/>"
+																															,"style": "TextSS"
+																														}
+																													]
+																												}
+																												,{
+																													"tp": "hl"
+																													,"align": "middle-left"
+																													,"bgcolor": "#00000000"
+																													,"bgimage": "Fill"
+																													,"padding": [20,0,20,0]
+																													,"sub": [
+																														{
+																															"tp": "img"
+																															,"size": [62,73]
+																															,"src": "file://<chara id=cwork://%datapath%.deckinfo.cid get=iconpath>"
+																														}
+																														,{
+																															"tp": "div"
+																															,"flex": [1,-1]
+																															,"h": 64
+																															,"w": 270
+																															,"sub": [
+																																{
+																																	"tp": "text"
+																																	,"align": "middle-left"
+																																	,"color": "white"
+																																	,"extext": "<chara id=cwork://%datapath%.deckinfo.cid get=name>"
+																																	,"fontsize": 24
+																																}
+																															]
+																														}
+																													]
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "vl"
+																											,"padding": [0,0,0,0]
+																											,"sub": [
+																												{
+																													"tp": "hl"
+																													,"align": "middle-left"
+																													,"bgcolor": "yDarkAqua"
+																													,"bgimage": "Base2"
+																													,"padding": [5,5,5,5]
+																													,"sub": [
+																														{
+																															"tp": "text"
+																															,"extext": "<text id='IDS_ITEM.CATEGORY_SKILL'/>"
+																															,"style": "TextSS"
+																														}
+																													]
+																												}
+																												,{
+																													"tp": "hl"
+																													,"align": "middle-left"
+																													,"bgcolor": "#00000000"
+																													,"bgimage": "Fill"
+																													,"link": "link://KcReportNew.page.info.skilllink?skillid=cwork@%datapath%.deckinfo.skill"
+																													,"padding": [20,0,20,0]
+																													,"sub": [
+																														{
+																															"tp": "img"
+																															,"size": [28,28]
+																															,"src": "IconSkill"
+																														}
+																														,{
+																															"tp": "div"
+																															,"flex": [1,-1]
+																															,"h": 64
+																															,"w": 270
+																															,"sub": [
+																																{
+																																	"tp": "text"
+																																	,"align": "middle-left"
+																																	,"color": "yParamorange"
+																																	,"extext": "<skill id=cwork://%datapath%.deckinfo.skill.0 type=name>"
+																																	,"fontsize": 24
+																																}
+																															]
+																														}
+																													]
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "hl"
+																											,"align": "middle-left"
+																											,"bgcolor": "yDarkAqua"
+																											,"bgimage": "Base2"
+																											,"padding": [5,5,5,5]
+																											,"sub": [
+																												{
+																													"tp": "text"
+																													,"extext": "<text id='IDS_DECK.MAIN_DECK'/>"
+																													,"style": "TextSS"
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "deck"
+																											,"cardparam": {
+																												"rare": "auto"
+																												,"srcbtn": true
+																											}
+																											,"cards": "cwork@%datapath%.deckinfo.deck.m.ids"
+																										}
+																										,{
+																											"tp": "vl"
+																											,"createif": "%datapath%.deckinfo.deck.e.ids!=0"
+																											,"padding": [0,0,0,0]
+																											,"spacing": 20
+																											,"sub": [
+																												{
+																													"tp": "hl"
+																													,"align": "middle-left"
+																													,"bgcolor": "yDarkAqua"
+																													,"bgimage": "Base2"
+																													,"padding": [5,5,5,5]
+																													,"sub": [
+																														{
+																															"tp": "text"
+																															,"extext": "<text id='IDS_DECK.EX_DECK'/>"
+																															,"style": "TextSS"
+																														}
+																													]
+																												}
+																												,{
+																													"tp": "deck"
+																													,"cardparam": {
+																														"rare": "auto"
+																														,"srcbtn": true
+																													}
+																													,"cards": "cwork@%datapath%.deckinfo.deck.e.ids"
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "sp"
+																											,"color": "yDarkAqua"
+																										}
+																										,{
+																											"tp": "hl"
+																											,"align": "middle-right"
+																											,"padding": [200,0,0,0]
+																											,"sub": [
+																												{
+																													"tp": "btn"
+																													,"bgimage": "ButtonSB"
+																													,"flex": [1,-1]
+																													,"h": 50
+																													,"label": "<text id='IDS_DECK.TITLE_COPY'/>"
+																													,"labelsize": 20
+																													,"link": "deckcpy:cwork?path=%datapath%.deckinfo"
+																													,"toggleimage": "ButtonSY"
+																												}
+																											]
+																										}
+																										,{
+																											"tp": "img"
+																											,"anchor": [1,0,1,0]
+																											,"layout": false
+																											,"pivot": [1,0.5]
+																											,"size": [460,3]
+																											,"src": "SeparatorB"
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																				,{
+																					"tp": "vl"
+																					,"createif": "%datapath%.type==ranking"
+																					,"padding": [0,0,0,0]
+																					,"sub": [
+																						{
+																							"tp": "btn"
+																							,"bgimage": "ButtonSB"
+																							,"flex": [1,-1]
+																							,"h": 50
+																							,"label": "<cwork path=%datapath%.title>"
+																							,"labelsize": 20
+																							,"link": "link://%datapath%.link"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+																,{
+																	"tp": "vl"
+																	,"padding": [0,0,0,0]
+																	,"subloop": "cwork://%categorypath%.infolist"
+																	,"sub": [
+																		{
+																			"tp": "text"
+																			,"align": "middle-left"
+																			,"color": "yAqua"
+																			,"extext": "<cwork path=%categorypath%.infolist.text%subloop1%>"
+																			,"style": "TextSS"
+																		}
+																	]
+																}
+															]
+														}
+														,{
+															"tp": "div"
+															,"anchor": [0,1,1,1]
+															,"bgimage": "ListTitle"
+															,"layout": false
+															,"pos": [0,0]
+															,"size": [0,40]
+															,"sub": [
+																{
+																	"tp": "hl"
+																	,"align": "middle-center"
+																	,"padding": [20,5,20,5]
+																	,"sub": [
+																		{
+																			"tp": "text"
+																			,"align": "middle-center"
+																			,"bestfit": true
+																			,"extext": "<cwork path=%categorypath%.title>"
+																			,"fontsize": 20
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"anchor": [0.5,0,0.5,0]
+					,"layout": false
+					,"pivot": [0.5,0]
+					,"size": [760,200]
+					,"src": "ScrollCover"
+				}
+			]
+		}
+	]
+}

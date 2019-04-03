@@ -1,0 +1,27 @@
+{
+	"style":"Dialog",
+	"title":"<htarg id='title'/>",
+	"onload":"forth:'star' gethtarg tonum dup 10 < if 'htjson://hide.s10' openurl endif dup 9 < if 'htjson://hide.s9' openurl endif dup 8 < if 'htjson://hide.s8' openurl endif dup 7 < if 'htjson://hide.s7' openurl endif dup 6 < if 'htjson://hide.s6' openurl endif dup 5 < if 'htjson://hide.s5' openurl endif dup 4 < if 'htjson://hide.s4' openurl endif dup 3 < if 'htjson://hide.s3' openurl endif dup 2 < if 'htjson://hide.s2' openurl endif dup 1 < if 'htjson://hide.s1' openurl endif drop",
+	"sub":[
+		{
+			"tp":"hl",
+			"padding":[10,20,10,10],
+			"spacing":5,
+			"align":"middle-center",
+			"sub":[
+				{ "tp":"img", "size":[40,40], "id":"s1", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s2", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s3", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s4", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s5", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s6", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s7", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s8", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s9", "src":"<htarg id='iconpath'/>" },
+				{ "tp":"img", "size":[40,40], "id":"s10", "src":"<htarg id='iconpath'/>" },
+			]
+		},
+		{"style":"FixSpaceSS"},
+		{"style":"Ok","link":"menu://close"}
+	]
+}

@@ -1,0 +1,48 @@
+{
+  "style": "Dialog",
+  "title": "",
+  "back": false,
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Danke, dass du die Umfrage abgeschlossen hast!\n\nWir werden dein Feedback nutzen, um den Duellraum weiter zu verbessern.\n\nWir hoffen, du wirst weiterhin Spaß mit „Yu-Gi-Oh! Duel Links“ haben. "
+        },
+        {
+          "tp": "hl",
+          "size": [
+            450,
+            230
+          ],
+          "align": "middle-left",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "style": "Banner",
+              "src": "file://Special/Images/#/Special1_1",
+              "size": [
+                450,
+                230
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "style": "close",
+      "link": [
+        "menu://close",
+        "nop:"
+      ]
+    }
+  ]
+}

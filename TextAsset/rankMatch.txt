@@ -1,0 +1,3037 @@
+{
+"RankMatch":{
+	"tp": "vl",
+	"padding": [0, 0, 0, 10],
+	"spacing": 0,
+	"sub": [
+		{
+			"tp": "btn",
+			"se": "none",
+			"label": "<size=20><text id='IDS_KCREPORT.CATEGORY004'/></size>",
+			"bgimage": "ButtonSB",
+			"toggleimage":"ButtonSY",
+			"h": 60,
+			"flex": [1, -1],
+		},
+		{
+			"tp": "ac",
+			"padding": [15, 40, 15, 10],
+			"spacing":40,
+			"expand": false,
+			"onexpand":"guide:on?mes=<text id='IDS_KCREPORT.CHARA_TEXT005'/>&messpd=30",
+			"sub": [
+				{
+					"tp":"vl",
+					"padding": [0,0,0,20],
+					"sub":[
+						{
+							"tp":"vl",
+							"bgimage":"ListFrame",
+							"padding": [10, 10, 5, 10],
+							"sub":[
+								{
+									"tp":"hl",
+									"padding":[0,15,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"1.3％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_KING'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"src":"file://Emblem/#/IconE7049",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"sp", "color":"#00ccff"},
+								{
+									"tp":"hl",
+									"padding":[0,0,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"1.6％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_PLATINUM'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"src":"file://Emblem/#/IconE7080",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"sp", "color":"#00ccff"},
+								{
+									"tp":"hl",
+									"padding":[0,0,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"9.6％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_GOLD'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"src":"file://Emblem/#/IconE7048",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"sp", "color":"#00ccff"},
+								{
+									"tp":"hl",
+									"padding":[0,0,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"29.7％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_SILVER'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"src":"file://Emblem/#/IconE7047",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"sp", "color":"#00ccff"},
+								{
+									"tp":"hl",
+									"padding":[0,0,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"28.6％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_BRONZE'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"src":"file://Emblem/#/IconE7046",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"sp", "color":"#00ccff"},
+								{
+									"tp":"hl",
+									"padding":[0,0,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"div",
+											"h":40,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-right",
+													"fontsize":"24",
+													"extext":"29.2％",
+												},
+											]
+										},
+										{
+											"tp":"div",
+											"h":40,
+											"w":210,
+											"flex":[1,-1],
+											"sub":[
+												{
+													"tp":"text",
+													"align":"middle-center",
+													"fontsize":"24",
+													"extext":"<text id='IDS_PVP.RANK_TITLE_ROOKIE'/>",
+												},
+											]
+										},
+										{
+											"tp":"hl",
+											"padding":[0,10,0,0],
+											"sub":[
+												{
+													"tp":"img",
+													"size":[60,40],
+												},
+											]
+										}
+									]
+								},
+								{"tp":"text", "color":"#", "style":"TextSS", "align":"middle-left", "extext":"<text id='IDS_KCREPORT.TEXT031'/>"},
+							]
+						},
+						{
+							"tp":"div",
+							"bgimage":"ListTitle",
+							"layout":false,
+							"anchor":[0,1,1,1],
+							"pos":[0,0],
+							"size":[0,40],
+							"sub":[
+								{
+									"tp":"hl",
+									"h":40,
+									"padding":[20,5,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"text",
+											"align":"middle-center",
+											"fontsize":20,
+											"extext":"<text id='IDS_KCREPORT.CATEGORY_SUB002'/>",
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				{
+					"tp":"vl",
+					"padding": [0, 0, 0, 20],
+					"sub":[
+						{
+							"tp":"vl",
+							"bgimage":"ListFrame",
+							"padding": [10, 0, 10, 10],
+							"sub":[
+								{"style":"FixSpaceM"},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_ITEM.ID100101'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=11964>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":301196401,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=6999>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300699901,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=9775>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300977501,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5139>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300513901,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5921>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300592101,
+														},
+													]
+												}
+											]
+										},
+										
+										
+										
+									]
+								},
+								
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_ITEM.ID100201'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=4939>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300493901,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5521>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300552101,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=4630>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300463001,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5904>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300590401,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5703>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300570301,
+														},
+													]
+												}
+											]
+										},
+										
+										
+										
+										
+									]
+								},
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_ITEM.ID100301'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=4993>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300499301,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=6413>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300641301,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5726>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300572601,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=10401>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":301040101,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=4317>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300431701,
+														},
+													]
+												}
+											]
+										},
+										
+										
+										
+									]
+								},
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_ITEM.ID100401'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=9362>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300936201,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5320>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300532001,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=9022>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300902201,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5333>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300533301,
+														},
+													]
+												}
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,10,20,10],
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":180,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"style":"TextM",
+															"extext":"<card mrk=5044>",
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"sub":[
+														{
+															"tp":"card",
+															"scale":0.72,
+															"cid":300504401,
+														},
+													]
+												}
+											]
+										},
+										
+										
+										
+										
+									]
+								},
+								{"tp":"text", "color":"#", "style":"TextSS", "align":"middle-left", "extext":"<text id='IDS_KCREPORT.TEXT041'/>"},
+							]
+						},
+						{
+							"tp":"div",
+							"bgimage":"ListTitle",
+							"layout":false,
+							"anchor":[0,1,1,1],
+							"pos":[0,0],
+							"size":[0,40],
+							"sub":[
+								{
+									"tp":"hl",
+									"h":40,
+									"padding":[20,5,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"text",
+											"align":"middle-center",
+											"fontsize":20,
+											"extext":"<text id='IDS_KCREPORT.CATEGORY_SUB004'/>",
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				
+				
+				
+				
+				{
+					"tp":"vl",
+					"padding": [0, 0, 0, 20],
+					"sub":[
+						{
+							"tp":"vl",
+							"bgimage":"ListFrame",
+							"padding": [10, 0, 10, 10],
+							"sub":[
+								{"style":"FixSpaceM"},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_PVP.RANK_TITLE_KING'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=41 type=name>&message=<skill id=41 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=41 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=51 type=name>&message=<skill id=51 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=51 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=70 type=name>&message=<skill id=70 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=70 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=46 type=name>&message=<skill id=46 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=46 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=20 type=name>&message=<skill id=20 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=20 type=name>",
+														},
+													]
+												},
+											]
+										},
+										
+										
+										
+									]
+								},
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_PVP.RANK_TITLE_PLATINUM'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=41 type=name>&message=<skill id=41 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=41 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=46 type=name>&message=<skill id=46 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=46 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=51 type=name>&message=<skill id=51 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=51 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=70 type=name>&message=<skill id=70 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=70 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=20 type=name>&message=<skill id=20 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=20 type=name>",
+														},
+													]
+												},
+											]
+										},
+										
+										
+										
+									]
+								},
+								
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_PVP.RANK_TITLE_GOLD'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"hl",
+											"textcolor":"#ffcc00",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=20 type=name>&message=<skill id=20 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT006'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=20 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"textcolor":"#00d8ff",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=51 type=name>&message=<skill id=51 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT007'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=51 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=41 type=name>&message=<skill id=41 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT008'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=41 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=46 type=name>&message=<skill id=46 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT009'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=46 type=name>",
+														},
+													]
+												},
+											]
+										},
+										{"tp":"sp", "color":"#00ccff"},
+										{
+											"tp":"hl",
+											"padding":[20,0,20,0],
+											"bgimage":"Fill",
+											"bgcolor":"#00000000",
+											"link":"menu://push.dialog/Prefabs/Menu/CommonDialog?title=<skill id=21 type=name>&message=<skill id=21 type=info>&label1=<text id='IDS_SYS.CLOSE'/>",
+											"sub":[
+												{
+													"tp":"div",
+													"size":[80,64],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<text id='IDS_KCREPORT.TEXT010'/>",
+														},
+													]
+												},
+												{
+													"tp":"div",
+													"h":64,
+													"w":270,
+													"flex":[1,-1],
+													"sub":[
+														{
+															"tp":"text",
+															"align":"middle-left",
+															"fontsize":24,
+															"extext":"<skill id=21 type=name>",
+														},
+													]
+												},
+											]
+										},
+										
+										
+										
+									]
+								},
+								
+								
+								
+								
+								
+								
+								{"tp":"text", "color":"#", "style":"TextSS", "align":"middle-left", "extext":"<text id='IDS_KCREPORT.TEXT042'/>"},
+							]
+						},
+						{
+							"tp":"div",
+							"bgimage":"ListTitle",
+							"layout":false,
+							"anchor":[0,1,1,1],
+							"pos":[0,0],
+							"size":[0,40],
+							"sub":[
+								{
+									"tp":"hl",
+									"h":40,
+									"padding":[20,5,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"text",
+											"align":"middle-center",
+											"fontsize":20,
+											"extext":"<text id='IDS_KCREPORT.CATEGORY_SUB003'/>",
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				
+				
+				
+				{
+					"tp":"vl",
+					"padding": [0, 0, 0, 20],
+					"sub":[
+						{
+							"tp":"vl",
+							"bgimage":"ListFrame",
+							"padding": [10, 0, 10, 5],
+							"sub":[
+								{"style":"FixSpaceM"},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB008'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301092001,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301092001,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300551501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201,
+														},
+														
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300876101,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300876101,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300551601,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300551201,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300886301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300886301,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300493901,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300606701,
+														},
+														
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101,
+														},
+													]
+												},
+												
+											]
+										},
+										
+									]
+								},
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB009'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618701,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618801,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300936201,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300936201,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300936201,
+														},
+													]
+												},
+												{"tp":"sp", "color":"#00ccff"},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.EX_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300451501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300461901,
+														},
+													]
+												},
+												
+												
+											]
+										},
+										
+									]
+								},
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB010'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300589501,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300552101,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300552101,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300437901,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300612001,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300612001,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300612001,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300463001,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300463001,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300463001,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300977501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300590401,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300434001,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300493901,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300936201,
+														},
+													]
+												},
+												
+												
+											]
+										},
+										
+									]
+								},
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB011'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618301,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300483401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101,
+														},
+													]
+												},
+												{"tp":"sp", "color":"#00ccff"},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.EX_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300451501,
+														},
+													]
+												},
+												
+												
+												
+											]
+										},
+										
+									]
+								},
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB012'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300476401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300476401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300476401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300552101,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300412601,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300412601,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300571301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300571301,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701,
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300591101,
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300591101,
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300606801,
+														},
+													]
+												},
+												
+												
+												
+											]
+										},
+										
+									]
+								},
+								
+								
+								
+							]
+						},
+						{
+							"tp":"div",
+							"bgimage":"ListTitle",
+							"layout":false,
+							"anchor":[0,1,1,1],
+							"pos":[0,0],
+							"size":[0,40],
+							"sub":[
+								{
+									"tp":"hl",
+									"h":40,
+									"padding":[20,5,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"text",
+											"align":"middle-center",
+											"fontsize":20,
+											"extext":"<text id='IDS_KCREPORT.CATEGORY_SUB005'/>",
+										},
+									]
+								},
+							]
+						},
+					]
+				},
+				
+				
+				
+				
+				
+				
+			]
+		},
+	]
+}
+
+}

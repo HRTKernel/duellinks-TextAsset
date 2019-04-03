@@ -1,0 +1,75 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0014",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns alle Anregungen mit, die du zur zukünftigen Verbesserung ähnlicher Events hast. <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns mit, welche Charaktere du gerne in Duel World treffen würdest. <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t2"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns mit, was für Probleme du beim Spielen und Verstehen von „Legendärer Duellant erscheint für kurze Zeit in Duel World“-Events hattest. <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t3"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":14}"
+        },
+        {
+          "style": "FixSpaceM"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 2,
+      "maxIndex": 2,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0014.close"
+    }
+  ]
+}

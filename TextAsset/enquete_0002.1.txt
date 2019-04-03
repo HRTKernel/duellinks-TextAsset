@@ -1,0 +1,45 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0002",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Danke für dein Interesse an „Yu-Gi-Oh! Duel Links.“ Bitte teile uns deine Ideen und Anregungen zum Spiel mit."
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Feedback zu „Yu-Gi-Oh! Duel Links“"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t1"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":2}"
+        }
+      ]
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0002.close"
+    }
+  ]
+}

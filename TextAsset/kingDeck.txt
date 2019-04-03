@@ -1,0 +1,1870 @@
+{
+"KingDeck":{
+	"tp": "vl",
+	"padding": [0, 0, 0, 10],
+	"spacing": 0,
+	"sub": [
+		{
+			"tp": "btn",
+			"se": "none",
+			"label": "<size=20><text id='IDS_KCREPORT.CATEGORY010'/></size>",
+			"bgimage": "ButtonSB",
+			"toggleimage":"ButtonSY",
+			"h": 60,
+			"flex": [1, -1],
+		},
+		{
+			"tp": "ac",
+			"padding": [15, 40, 15, 10],
+			"spacing":40,
+			"onexpand":"guide:on?mes=<text id='IDS_KCREPORT.CHARA_TEXT011'/>&messpd=30",
+			"sub": [
+				{
+					"tp":"vl",
+					"padding": [0, 0, 0, 20],
+					"sub":[
+						{
+							"tp":"vl",
+							"bgimage":"ListFrame",
+							"padding": [10, 0, 10, 5],
+							"sub":[
+								{"style":"FixSpaceM"},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB026'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1]
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>"
+															
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":301008801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":301008801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300627201
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300885901
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300556001
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300526401
+														}
+													]
+												}
+												
+											]
+										}
+										
+									]
+								},
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB027'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1]
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>"
+															
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300478601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300595301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300595301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300595301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300532001
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300532001
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300530401
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300594901
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300594901
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300594901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300913801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300484301
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300621801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														}
+													]
+												},
+												
+												
+											]
+										}
+										
+									]
+								},
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB028'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1]
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>"
+															
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300896101
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300681501
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300681501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300412601
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300412601
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300412601
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300524601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300606701
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300606801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300606801
+														}
+													]
+												}
+												
+												
+											]
+										}
+										
+									]
+								},
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB029'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1]
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>"
+															
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300532001
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300532001
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300520301
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300406801
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300406801
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300406801
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300583701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300466401
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300466401
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														}
+													]
+												},
+												
+												
+												
+											]
+										}
+										
+									]
+								},
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB030'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300491601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300492901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300478601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300473701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618701
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618801,
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300530401
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300406801
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300480201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300885901
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														},
+													]
+												}
+												
+												
+												
+											]
+										}
+										
+									]
+								}
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB031'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300902201
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300618301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300408701
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300403801
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300604701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300466401
+														},
+													]
+												}
+												
+												
+												
+											]
+										}
+										
+									]
+								}
+								
+								
+								
+								
+								
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB032'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300619901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300476401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300407801
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300571301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300571301
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300537401
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300537401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300516801,
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300510701
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300512601
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300512601
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300591101
+														}
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300591101
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														},
+													]
+												}
+												
+												
+												
+											]
+										}
+										
+									]
+								},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB034'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301092001
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301092001
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300551501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300551501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300513901
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300928201
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300876101
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300551601
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300551201
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300530401,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300509901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300621701
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300526401
+														},
+													]
+												},
+												{"tp":"sp", "color":"#00ccff"},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.EX_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300438601
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300471901
+														}
+													]
+												}
+												
+												
+												
+												
+											]
+										}
+										
+									]
+								},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB035'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300540901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300604001
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300525001
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301040101
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301040101
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300641301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300441301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300450601
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300451901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300431701
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300886301,
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300500901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300550501
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300572601
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300699901
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300499301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300466401
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300500101
+														},
+													]
+												},
+												
+											]
+										}
+										
+									]
+								},
+								{
+									"tp": "btn",
+									"se": "none",
+									"label": "<size=20><text id='IDS_KCREPORT.CATEGORY_SUB036'/></size>",
+									"bgimage": "ButtonSB",
+									"toggleimage":"ButtonSY",
+									"h": 50,
+									"flex": [1, -1],
+								},
+								{
+									"tp": "ac",
+									"padding": [0, 0, 0, 10],
+									"spacing":0,
+									"expand": false,
+									"sub": [
+										{
+											"tp":"vl",
+											"padding":[15,10,20,10],
+											"spacing":20,
+											"sub":[
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"text",
+															"style":"TextSS",
+															"extext":"<text id='IDS_DECK.MAIN_DECK'/>",
+															
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300474901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300474901
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300604001
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300604001
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300767501
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300767501
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300767501
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300751701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300751701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300751701
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":301196401,
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301076301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301076301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":301076301
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300530401
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300530401
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300566301
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300566301
+														},
+														{
+															"tp":"card",
+															"rare":0,
+															"cid":300566301
+														},
+														{
+															"tp":"card",
+															"rare":2,
+															"cid":300539101
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300747101
+														},
+														{
+															"tp":"card",
+															"rare":3,
+															"cid":300747101
+														},
+													]
+												},
+												{
+													"tp":"hl",
+													"padding":[0,0,0,0],
+													"align":"middle-left",
+													"sub":[
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300526401
+														},
+														{
+															"tp":"card",
+															"rare":1,
+															"cid":300526401
+														},
+													]
+												},
+												
+												
+												
+												
+												
+											]
+										}
+										
+									]
+								},
+								
+								
+								
+								
+								
+								
+								{"tp":"text", "color":"#", "style":"TextSS", "align":"middle-left", "extext":"<text id='IDS_KCREPORT.TEXT043'/>"},
+								
+							]
+						},
+						{
+							"tp":"div",
+							"bgimage":"ListTitle",
+							"layout":false,
+							"anchor":[0,1,1,1],
+							"pos":[0,0],
+							"size":[0,40],
+							"sub":[
+								{
+									"tp":"hl",
+									"h":40,
+									"padding":[20,5,20,5],
+									"align":"middle-center",
+									"sub":[
+										{
+											"tp":"text",
+											"align":"middle-center",
+											"fontsize":20,
+											"extext":"<text id='IDS_KCREPORT.CATEGORY_SUB033'/>"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
+}

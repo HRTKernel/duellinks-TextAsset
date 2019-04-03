@@ -1,0 +1,51 @@
+{
+  "style": "Dialog",
+  "title": "",
+  "back": false,
+  "outsideTouch": false,
+  "sub": [
+    {
+      "style": "Body",
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Danke für das Ausfüllen der Umfrage!\n\nDeine Meinung ist uns wichtig und hilft uns dabei, „Yu-Gi-Oh! Duel Links“ weiter zu verbessern.\n\nDanke für dein Interesse an „Yu-Gi-Oh! Duel Links!“"
+        },
+        {
+          "tp": "hl",
+          "size": [
+            450,
+            230
+          ],
+          "align": "middle-left",
+          "padding": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "style": "Banner",
+              "src": "file://Special/Images/#/Special1_1",
+              "size": [
+                450,
+                230
+              ]
+            }
+          ]
+        },
+        {
+          "style": "FixSpaceSS"
+        }
+      ]
+    },
+    {
+      "style": "close",
+      "link": [
+        "menu://close",
+        "nop:"
+      ]
+    }
+  ]
+}

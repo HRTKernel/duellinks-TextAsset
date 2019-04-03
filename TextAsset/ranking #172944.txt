@@ -1,0 +1,524 @@
+{
+	"tp": "page"
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"title": "KCカップランキング"
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [0,0,0,0]
+			,"spacing": 4
+			,"sub": [
+				{
+					"tp": "vl"
+					,"padding": [0,5,0,5]
+					,"spacing": 4
+					,"sub": [
+						{
+							"tp": "vl"
+							,"align": "middle-center"
+							,"bgimage": "file://Event/Ev0003/Images/#/GUI_T_KCcup_header_BG"
+							,"padding": [0,6,0,5]
+							,"spacing": 2
+							,"textcolor": "#143A99FF"
+							,"sub": [
+								{
+									"tp": "text"
+									,"align": "middle-center"
+									,"extext": "KCカップランキング"
+									,"style": "TextM"
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "vl"
+					,"padding": [0,35,0,0]
+					,"sub": [
+						{
+							"tp": "vl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "body"
+									,"bgimage": "ListFrame"
+									,"padding": [10,0,10,120]
+									,"sub": [
+										{
+											"style": "FixSpaceM"
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "ランキング"
+											,"se": "none"
+											,"style": "TextS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": true
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/IconE7001"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/IconE7001"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/IconE7001"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "北アメリカ"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7002"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7002"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7002"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "ラテンアメリカ/カリブ諸国"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7003"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7003"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7003"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "ヨーロッパ"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "日本"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "台湾/韓国"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "アジア/中東/アフリカ"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+										,{
+											"tp": "btn"
+											,"bgimage": "ButtonSB"
+											,"flex": [1,-1]
+											,"h": 50
+											,"label": "オセアニア"
+											,"se": "none"
+											,"style": "TextSS"
+											,"toggleimage": "ButtonSY"
+										}
+										,{
+											"tp": "ac"
+											,"expand": false
+											,"padding": [0,0,0,10]
+											,"spacing": 10
+											,"sub": [
+												{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー１"
+													,"point": "DP:25000000"
+													,"record": "<color=#ffcc00>1位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー２"
+													,"point": "DP:10000000"
+													,"record": "<color=#00d8ff>2位</color>"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+												,{
+													"tp": "rankinglist"
+													,"emblem": "file://Emblem/#/7004"
+													,"icon": ""
+													,"name": "プレイヤー３"
+													,"point": "DP:10000000"
+													,"record": "3位"
+												}
+												,{
+													"tp": "sp"
+													,"color": "#00ccff"
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "div"
+									,"anchor": [0,1,1,1]
+									,"bgimage": "ListTitle"
+									,"layout": false
+									,"pos": [0,0]
+									,"size": [0,40]
+									,"sub": [
+										{
+											"tp": "hl"
+											,"align": "middle-center"
+											,"h": 40
+											,"padding": [20,5,20,5]
+											,"sub": [
+												{
+													"tp": "text"
+													,"align": "middle-center"
+													,"color": "white"
+													,"extext": "ランキングリスト"
+													,"fontsize": 20
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"anchor": [0,0,1,0]
+					,"h": 170
+					,"layout": false
+					,"pivot": [0,0]
+					,"src": "ScrollCover"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Dein Deck erstellen"
+    },
+    {
+      "style": "TextS",
+      "extext": "– Es werden 10–15 Monster pro Deck empfohlen.\n\n– Bei zu vielen Monstern mit Stufe 5 oder höher kommst du oft in Situationen, in denen du nichts beschwören kannst.\n\n– So etwas wie ein „korrektes“ Deck gibt es nicht. In der Deckübersicht findest du Ideen und Anregungen!"
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

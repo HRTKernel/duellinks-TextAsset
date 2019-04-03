@@ -1,0 +1,38 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Monster mit hohem ATK"
+    },
+    {
+      "style": "TextS",
+      "extext": "– Nutze die Zauberkarte <color=aqua><card mrk='4874'/></color>, um das gegnerische Monster in die Verteidigungsposition zu setzen!\n\n– Nutze die Zauberkarte <color=aqua><card mrk='5538'/></color>, um deinen ATK (Angriff) zu erhöhen!"
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+	"style":"Dialog",
+	"loadtext":["IDS_RESULT"],
+	"title":"<htarg id='title'/>",
+	"oninit":"forth:'add' gethtarg tonum dup 'sub[0].sub[0].sub[1].tween[0].from' oversrc 'now' gethtarg tonum dup 'sub[0].sub[2].sub[1].tween[0].from' oversrc + 'sub[0].sub[2].sub[1].tween[0].to' oversrc",
+	"sub":[
+		{
+			"tp":"vl",
+			"bgimage":"ScrollBg",
+			"padding":[20,10,20,10],
+			"spacing":10,
+			"textcolor":[255,255,255,255]
+			"sub":[
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":50,
+							"align":"middle-right",
+							"layout":{"flex":[1,-1]},
+							"extext":"＋"
+						},
+						{
+							"tp":"text",
+							"fontsize":50,
+							"align":"middle-right",
+							"tween":[
+								{ "tween":"counterText","from":0,"to":0,"duration":3,"delay":1 },
+							]
+						}
+					]
+				},
+				{"tp":"sp"},
+				{
+					"tp":"hl",
+					"padding":[20,10,20,10],
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":45,
+							"align":"middle-light",
+							"bestfit":true,
+							"vertoverflow":false,
+							"layout":{"w":200,"h":45},
+							"extext":"<text id='IDS_RESULT.EVENT_TOTALPT'/>"
+						},
+						{
+							"tp":"text",
+							"fontsize":45,
+							"align":"middle-right",
+							"layout":{"flex":[1,-1]},
+							"tween":[
+								{ "tween":"counterText","from":0,"to":0,"duration":3,"delay":1 }
+							]
+						}
+					]
+				}
+			]
+		},
+		{"style":"FixSpaceSS"},
+		{"style":"Ok","link":"menu://close"},
+		{
+			"tp":"event",
+			"onTick":"se:SE_COUNTUP_ONESHOT",
+			"tickDelay":1,
+			"onDestroy":"sestop:SE_COUNTUP_ONESHOT"
+		}
+	]
+}

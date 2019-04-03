@@ -1,0 +1,89 @@
+{
+	"tp": "page"
+	,"title": "<text id='IDS_KCREPORT.TITLE'/>"
+	,"loadtext": ["IDS_PVP","IDS_SKILL","IDS_KCREPORT"]
+	,"loadstyle": ["Htjson/kcReport/1/style/characterRanking","Htjson/kcReport/1/style/characterLevel","Htjson/kcReport/1/style/characterSkill","Htjson/kcReport/1/style/rankMatch","Htjson/kcReport/1/style/traderRanking","Htjson/kcReport/1/style/loginTime"]
+	,"exbg": "Prefabs/Shop/Materials/3DMenuBG"
+	,"onload": ["guide:on?chara=9011&face=0&mes=<text id='IDS_KCREPORT.CHARA_TEXT001'/>&messpd=60&offsetY=-65"]
+	,"textcolor": "white"
+	,"header": {
+		"back": true
+		,"home": true
+	}
+	,"sub": [
+		{
+			"tp": "vl"
+			,"padding": [10,0,10,0]
+			,"sub": [
+				{
+					"style": "PageHeaderPadding"
+				}
+				,{
+					"tp": "div"
+					,"bgimage": "KcTitleBase"
+					,"size": [1500,44]
+					,"sub": [
+						{
+							"tp": "text"
+							,"style": "TextM"
+							,"align": "lower-left"
+							,"pos": [3,3]
+							,"color": "black"
+							,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE001'/>"
+						}
+					]
+				}
+				,{
+					"tp": "div"
+					,"layout": false
+					,"y": -290
+					,"sub": [
+						{
+							"tp": "text"
+							,"style": "TextSS"
+							,"extext": "<text id='IDS_KCREPORT.DATE001'/><cwork path=KcReport.list.report1.date>"
+						}
+					]
+				}
+				,{
+					"tp": "div"
+					,"h": 180
+				}
+				,{
+					"tp": "body"
+					,"bgimage": ""
+					,"bgcolor": "#00000000"
+					,"padding": [0,0,0,100]
+					,"sub": [
+						{
+							"style": "CharacterRanking"
+						}
+						,{
+							"style": "CharacterLevel"
+						}
+						,{
+							"style": "CharacterSkill"
+						}
+						,{
+							"style": "RankMatch"
+						}
+						,{
+							"style": "TraderRanking"
+						}
+						,{
+							"style": "LoginTime"
+						}
+					]
+				}
+				,{
+					"tp": "img"
+					,"src": "ScrollCover"
+					,"layout": false
+					,"anchor": [0.5,0,0.5,0]
+					,"pivot": [0.5,0]
+					,"size": [760,200]
+				}
+			]
+		}
+	]
+}

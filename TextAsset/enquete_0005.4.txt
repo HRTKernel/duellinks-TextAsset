@@ -1,0 +1,176 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0005",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Bitte wähle neue Elemente, die du dir wünschen würdest.\n(Mehrfachauswahl) <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c1"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "Globale Duell-Turniere"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c2"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "Zusätzliche Charaktere aus \n„Yu-Gi-Oh! Duell Monsters“"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c3"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "Zusätzliche Charaktere aus „Yu-Gi-Oh! GX“ \noder anderen Serien"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c4"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "Keine der oben aufgeführten"
+            }
+          ]
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Andere Kommentare oder Meinungen <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "input",
+          "h": 100,
+          "multiline": true,
+          "key": "t4"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "tp": "btn",
+          "label": "Abschicken",
+          "link": "webapi://Worksheet.post/{\"wid\":5}"
+        },
+        {
+          "style": "FixSpaceM"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 4,
+      "maxIndex": 4,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0005.close"
+    }
+  ]
+}

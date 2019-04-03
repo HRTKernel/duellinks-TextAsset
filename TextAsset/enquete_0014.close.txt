@@ -1,0 +1,30 @@
+{
+  "style": "Dialog",
+  "title": "",
+  "back": false,
+  "sub": [
+    {
+      "style": "FixSpaceM"
+    },
+    {
+      "style": "TextS",
+      "extext": "Deine bisherigen Antworten auf unsere Umfrage werden nicht gespeichert.\nMöchtest du die Ansicht wirklich schließen?",
+      "align": "middle-center"
+    },
+    {
+      "style": "FixSpaceM"
+    },
+    {
+      "style": "YesNoButton",
+      "YesLabel": "<text id='IDS_SYS.BACK'/>",
+      "NoLabel": "<text id='IDS_SYS.CLOSE'/>",
+      "YesLink": [
+        "menu://back"
+      ],
+      "NoLink": [
+        "menu://close",
+        "nop:"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+	"tp":"page",
+	"title":"<text id='IDS_KCREPORT.TITLE'/>",
+	"loadtext":["IDS_PVP","IDS_SKILL","IDS_KCREPORT","IDS_DECK"],
+	"loadstyle":["Htjson/kcReport/1/style/characterRanking","Htjson/kcReport/1/style/characterLevel","Htjson/kcReport/1/style/characterSkill","Htjson/kcReport/1/style/rankMatch","Htjson/kcReport/1/style/traderRanking","Htjson/kcReport/1/style/loginTime"],
+	"exbg":"Prefabs/Shop/Materials/3DMenuBG",
+	"onload":["guide:on?chara=9011&face=0&mes=<text id='IDS_KCREPORT.CHARA_TEXT001'/>&messpd=60&offsetY=-65"],
+	"onbackoverride":"<cwork path=KcReport.onbackoverride>",
+	"onhomeoverride":"<cwork path=KcReport.onhomeoverride>",
+	"textcolor":"white",
+	"header":{
+		"back":true,
+		"home":true,
+		"buttons":[{"label":"<text id='IDS_KCREPORT.BUTTON001'/>", "link":"menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/1/list"}],
+	},
+	"sub":[
+		{
+			"tp":"vl",
+			"padding":[10,0,10,0],
+			"sub":[
+				{
+					"style": "PageHeaderPadding",
+				},
+				{
+					"tp":"div",
+					"bgimage":"KcTitleBase",
+					"size":[1500, 44],
+					"sub":[
+						{
+							"tp":"text",
+							"style":"TextM",
+							"align":"lower-left",
+							"pos":[3,3],
+							"color":"black",
+							"extext":"<text id='IDS_KCREPORT.REPORT_TITLE001'/>",
+						}
+					]
+				},
+				{
+					"tp":"div",
+					"layout":false,
+					"y":-290,
+					"sub":[
+						{
+							"tp":"text",
+							"style":"TextSS",
+							"extext":"<text id='IDS_KCREPORT.DATE001'/><cwork path=KcReport.list.report1.date>",
+						}
+					]
+				},
+				{
+					"tp":"div",
+					"h":180,
+				},
+				{
+					"tp":"body",
+					"bgimage":"",
+					"bgcolor":"#00000000",
+					"padding":[0,0,0,100],
+					"sub":[
+						{"style":"CharacterRanking"},
+						{"style":"CharacterLevel"},
+						{"style":"CharacterSkill"},
+						{"style":"RankMatch"},
+						{"style":"TraderRanking"},
+						{"style":"LoginTime"},
+					]
+						
+				},
+				{
+					"tp":"img",
+					"src":"ScrollCover",
+					"layout":false,
+					"anchor":[0,0,1,0],
+					"pivot":[0,0],
+					"h":170,
+				},
+			]
+		}
+	]
+
+}

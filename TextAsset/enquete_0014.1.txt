@@ -1,0 +1,211 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0014",
+  "onload": "forth:: keychange 1 \" q1\" getkey exist and if \" menu://enable.next\" openurl else \" menu://disable.next\" openurl endif ; keychange",
+  "onkeychange": "forth:keychange",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Bitte teile uns alle Kommentare und Anregungen mit, die du zu „Legendärer Duellant erscheint für kurze Zeit in Duel World“-Events hast."
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Wie zufrieden bist du insgesamt mit den „Legendärer Duellant erscheint für kurze Zeit in Duel World“-Events (z. B. mit dem Event „Arkana in Duel World“ usw.)?"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-center",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Unzufrieden"
+            },
+            {
+              "tp": "div",
+              "flex": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tp": "text",
+              "align": "center",
+              "fontsize": 18,
+              "color": "yAqua",
+              "extext": "Zufrieden"
+            }
+          ]
+        },
+        {
+          "tp": "rating",
+          "key": "q1",
+          "link": "se:SE_SELECT"
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "Bitte wähle alle Optionen aus, für die du dir wieder ein „Legendärer Duellant erscheint für kurze Zeit in Duel World“-Event wünschen würdest. (Mehrere Antworten sind möglich)  <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c1"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "1. Yugi Muto in Duel World"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c2"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "2. Yami Bakura in Duel World"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c3"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "3. Super Joey in Duel World"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c4"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "4. Mokuba Kaiba in Duel World"
+            }
+          ]
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 1,
+      "maxIndex": 2,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0014.close"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "tp": "vl",
+  "bgimage": "file://Images/Menu/GUI_T_MenuWindow",
+  "bgcolor": "#FFFFFFFF",
+  "textcolor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "padding": [
+    42,
+    26,
+    42,
+    22
+  ],
+  "spacing": 20,
+  "style": "TextS",
+  "sub": [
+    {
+      "style": "TextM",
+      "color": "yParamorange",
+      "align": "center",
+      "extext": "Angriff/Verteidigung"
+    },
+    {
+      "style": "TextS",
+      "extext": "– Angriffsposition\nDer <color=yPink>ATK</color>-Wert (Angriff) wird im Kampf verwendet. Der Spieler, der verliert, erhält Schaden."
+    },
+    {
+      "tp": "hl",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "align": "center",
+      "sub": [
+        {
+          "tp": "img",
+          "size": [
+            450,
+            100
+          ],
+          "src": "file://Tips/Images/#/tips02a"
+        }
+      ]
+    },
+    {
+      "style": "TextS",
+      "extext": "– Verteidigungsposition\nDer <color=yPink>DEF</color>-Wert (Verteidigung) wird im Kampf verwendet. Auch bei einer Niederlage wird kein Schaden zugefügt."
+    },
+    {
+      "tp": "hl",
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "align": "center",
+      "sub": [
+        {
+          "tp": "img",
+          "size": [
+            450,
+            100
+          ],
+          "src": "file://Tips/Images/#/tips02b"
+        }
+      ]
+    },
+    {
+      "tp": "div",
+      "h": 50
+    },
+    {
+      "tp": "ProgressRing"
+    }
+  ]
+}

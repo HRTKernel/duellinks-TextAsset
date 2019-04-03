@@ -1,0 +1,189 @@
+{
+  "tp": "dialog",
+  "title": "Umfrage",
+  "sharedcontext": "enquete_0009",
+  "onload": "nop:",
+  "onkeychange": "nop:",
+  "backEnable": false,
+  "sub": [
+    {
+      "style": "Body",
+      "scroll": true,
+      "sub": [
+        {
+          "style": "TextS",
+          "extext": "Mit wem nutzt du den Duellraum (Beta)?  (Du kannst mehrere Antworten auswählen.) <color=yAqua>(Optional)</color>"
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c1"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "1. Enge Freunde"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c2"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "2. Bekannte"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c3"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "3. Neue Bekanntschaften"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c4"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "4. Spieler aus dem Globalen Chat"
+            }
+          ]
+        },
+        {
+          "tp": "hl",
+          "align": "middle-left",
+          "padding": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "sub": [
+            {
+              "tp": "check",
+              "boxsize": [
+                40,
+                40
+              ],
+              "key": "c5"
+            },
+            {
+              "tp": "text",
+              "fontsize": 18,
+              "flex": [
+                1,
+                -1
+              ],
+              "color": "yAqua",
+              "extext": "5. Spieler, die du im Internet getroffen hast."
+            }
+          ]
+        },
+        {
+          "tp": "sp"
+        },
+        {
+          "style": "TextS",
+          "extext": "<color=yAqua>*Bitte fahre auf der nächsten Seite fort, nachdem du deine Einträge gemacht machst.</color>"
+        }
+      ]
+    },
+    {
+      "tp": "seek",
+      "autoIndex": true,
+      "crntIndex": 2,
+      "maxIndex": 5,
+      "nextid": "next",
+      "singlestep": true
+    },
+    {
+      "style": "close",
+      "link": "file://Htjson/worksheet/#/enquete_0009.close"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	"tp":"dialog",
+	"loadtext":["IDS_FRIEND"],
+	"title":"<text id='IDS_FRIEND.REPORT_CONFIRM_TITLE'/>",
+	"textcolor":"white",
+	"sub":[
+		{
+			"tp":"vl",
+			"padding":[5,5,5,5],
+			"spacing":0,
+			"bgimage":"ScrollBg",
+			"sub":[
+				{
+					"tp":"vl",
+					"padding":[5,0,5,0],
+					"sub":[
+						{
+							"tp":"text",
+							"fontsize":22,
+							"extext":"<color=yAqua><size=18><text id='IDS_FRIEND.DUELIST_ID'/> <htarg id='user_code' length=3/>-<htarg id='user_code' start=3 length=3/>-<htarg id='user_code' start=6 length=3/></size></color>\n<htarg id='user_name'/>"
+						},
+						{
+							"tp":"sp"
+						}
+					]
+				}
+			]
+		},
+		{
+			"tp":"vl",
+			"sub":[
+				{
+					"tp":"text",
+					"color":"black",
+					"fontsize":20,
+					"exwrap":true,
+					"extext":"<text id='IDS_FRIEND.REPORT_CONFIRM'/>"
+				}
+			]
+		},
+		{
+			"tp":"hl",
+			"padding":[0,0,0,0],
+			"sub":[
+				{"tp":"div","flex":[1,-1] },
+				{
+					"tp":"btn",
+					"label":"<text id='IDS_SYS.NO'/>",
+					"bgimage":"ButtonR",
+					"link":"menu://back"
+				},
+				{"tp":"div","flex":[1,-1] },
+				{
+					"tp":"btn",
+					"label":"<text id='IDS_FRIEND.REPORT'/>",
+					"link":["menu://back","webapi://Chat.report?user_code=<htarg id='user_code' enc='url'/>&lid=<htarg id='lid' enc='url'/>&room=<htarg id='room' enc='url'/>"]
+				}
+				{"tp":"div","flex":[1,-1] }
+			]
+		}
+	]
+}

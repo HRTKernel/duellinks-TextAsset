@@ -1,0 +1,30 @@
+{   
+    "Saioh_OBJ": {
+        "Models/Single/Event/EV0060/PackPrefab/REPLACE_PARAM_SERIES_NAME_REPLACE_PARAM_AREA_NAME_Saioh_OBJ": {
+            "priority": 3,
+            "type": "Fbx",
+            "finishActions": {
+                "mapmarkSetText": {
+                    "extext": "<text id='IDS_SINGLE.GATE_DISPLAY_EVENT'/>",
+                    "target": "UP_DOWN/mapmark_Event"
+                },
+                "changeTextures": {
+                    "Themepark_EX_FBX": {
+                        "themepark_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/themepark_eventEX_tex02"
+                        }
+                    },
+                    "Park_EX": {
+                        "park_tex01": {
+                            "_MainTex": "Models/Single/MapCommon/park_eventEX_tex02"
+                        }
+                    }
+                }
+            }
+        },
+        "Prefabs/Single/Single3D/REPLACE_PARAM_AREA_NAME/Collider_Duelisland": {
+            "priority": 1,
+            "type": "Collider"
+        }
+    }
+}

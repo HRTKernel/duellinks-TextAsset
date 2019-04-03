@@ -1,0 +1,41 @@
+{
+	"presentDialog":{
+		"alias":{
+			"allGetVisible":"sub[0].visible",
+			"allGetLink":"sub[0].link",
+			"presentEntry":"sub[1].sub",
+			"seek":"sub[2]"
+		},
+		"tp":"dialog",
+		"title":"<text id='IDS_MENU.PRESENT'/>",
+		"back":true,
+		"sub":[
+			{
+				"tp":"btn",
+				"style":"ok",
+				"label":"<text id='IDS_MENU.PRESENT_RECEIVE_COLLECTIVELY'>",
+				"link":"menu://close",
+				"flex":[1,-1]
+			},
+			{
+				"tp":"body",
+				"padding":[10,10,10,10],
+				"sub":[]
+			},
+			{
+				"tp":"seek",
+				"visible":false,
+				"label":"",
+				"first":"",
+				"next":"",
+				"prev":"",
+				"last":""
+			},
+			{
+				"tp":"btn",
+				"style":"close",
+				"link":"menu://close"
+			}
+		]
+	},
+}

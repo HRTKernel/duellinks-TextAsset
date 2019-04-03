@@ -1,0 +1,240 @@
+{
+	"Prefab_MarikEV":{
+		"Street01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_ST_tree01":				{"color":"#C8C6EAFF"},
+				"GX_ST_sea":				{"color":"#C8C6EAFF"},
+				"GX_ST_half_alp":			{"color":"#C8C6EAFF"},
+				"GX_ST_tree03_alp":			{"color":"#C8C6EAFF"},
+				"st_duelcenterMonitor_moji":{"color":"#C8C6EAFF"},
+				"st_DuelMonitor_tex03":		{"color":"#C8C6EAFF"},
+				"st_alpha_tex01":			{"color":"#C8C6EAFF"},
+				"st_main_tex01_Duelcenter":	{"color":"#C8C6EAFF"},
+				"GX_st_main_tex01":			{"color":"#C8C6EAFF"},
+
+				"GX_st_mount_tex01":		{"color":"#ABA8CCFF"},
+				"st_main_tex01":			{"color":"#ABA8CCFF"},
+				"st_half_alphatex02":		{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Street01":{},
+				"Prefab_MarikEV_GX":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Themepark01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":130.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_Themepark_han_kusa-tex02_mat":	{"color":"#C8C6EAFF"},
+				"GX_TP_Half_alphatex":				{"color":"#C8C6EAFF"},
+				"GX_TP_mainTex01":					{"color":"#C8C6EAFF"},
+				"GX_TP_Alphatex01":					{"color":"#C8C6EAFF"},
+				"GX_TP_Alphatex02":					{"color":"#C8C6EAFF"},
+				"Cardshop_Ring-cardshop15_lambert3":{"color":"#C8C6EAFF"},
+				"Ray_Tex01":						{"color":"#C8C6EAFF"},
+				"tenmetsu_tex01":					{"color":"#C8C6EAFF"},
+				"shopposter_001":					{"color":"#C8C6EAFF"},
+
+				"GX_TP_mountain":					{"color":"#ABA8CCFF"},
+				"GX_Themepark_shadow-tex02_mat":	{"color":"#ABA8CCFF"},
+				"GX_TP_water_02":					{"color":"#ABA8CCFF"},
+				"EFF_sprash_Taki":					{"color":"#ABA8CCFF"},
+				"themepark_a_tex01":				{"color":"#ABA8CCFF"},
+				"water_tex01":						{"color":"#ABA8CCFF"},
+				"water_tex02":						{"color":"#ABA8CCFF"},
+				"themepark_tex01":					{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Themepark01":{},
+				"Prefab_MarikEV_GX":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Downtown01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"CameraFar":100.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_DT_half_alp":	{"color":"#ABA8CCFF"},
+				"GX_DT_sea":		{"color":"#ABA8CCFF"},
+				"GX_DT_sea02":		{"color":"#ABA8CCFF"},
+				"GX_DT_main":		{"color":"#ABA8CCFF"},
+				"GX_DT_alp":		{"color":"#ABA8CCFF"},
+				"GX_DT_tree03_alp":	{"color":"#ABA8CCFF"},
+				"GX_DT_tree02":		{"color":"#ABA8CCFF"},
+				"Dt_half_alphatex":	{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex01":		{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex02":		{"color":"#ABA8CCFF"},
+				"Dt_various_main":	{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Downtown01":{},
+				"Prefab_MarikEV_GX":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Park01":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"park_alphatex02":					{"color":"#C8C6EAFF"},
+				"park_alphatex01":					{"color":"#C8C6EAFF"},
+				"park_half_alphatex":				{"color":"#C8C6EAFF"},
+				"water_tex01":						{"color":"#C8C6EAFF"},
+
+				"GX_park_tex01_EX":					{"color":"#ABA8CCFF"},
+				"GX_Park_mountain":					{"color":"#ABA8CCFF"},
+				"GX_Gate_Halfalpha-park_tex01_EX":	{"color":"#ABA8CCFF"},
+				"GX_Gate_EX-park_tex01_EX":			{"color":"#ABA8CCFF"},
+				"park_tex01":						{"color":"#ABA8CCFF"},
+				"Gate_Halfalpha_lambert16":			{"color":"#ABA8CCFF"},
+
+				"park_gate01":						{"color":"#EFEEF7FF"},
+			},
+			"template":{
+				"GX_Park01":{},
+				"Prefab_MarikEV_GX":{},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Street02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":28.0,
+				"FogEnd":56.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_ST_tree01":				{"color":"#C8C6EAFF"},
+				"GX_ST_sea":				{"color":"#C8C6EAFF"},
+				"GX_ST_half_alp":			{"color":"#C8C6EAFF"},
+				"GX_ST_tree03_alp":			{"color":"#C8C6EAFF"},
+				"st_duelcenterMonitor_moji":{"color":"#C8C6EAFF"},
+				"st_DuelMonitor_tex03":		{"color":"#C8C6EAFF"},
+				"st_alpha_tex01":			{"color":"#C8C6EAFF"},
+				"st_main_tex01_Duelcenter":	{"color":"#C8C6EAFF"},
+				"GX_st_main_tex01":			{"color":"#C8C6EAFF"},
+
+				"GX_st_mount_tex01":		{"color":"#ABA8CCFF"},
+				"st_main_tex01":			{"color":"#ABA8CCFF"},
+				"st_half_alphatex02":		{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Street02":{},
+				"Prefab_MarikEV_GX":{"area_name":"Street01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Themepark02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":130.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_Themepark_han_kusa-tex02_mat":	{"color":"#C8C6EAFF"},
+				"GX_TP_Half_alphatex":				{"color":"#C8C6EAFF"},
+				"GX_TP_mainTex01":					{"color":"#C8C6EAFF"},
+				"GX_TP_Alphatex01":					{"color":"#C8C6EAFF"},
+				"GX_TP_Alphatex02":					{"color":"#C8C6EAFF"},
+				"Cardshop_Ring-cardshop15_lambert3":{"color":"#C8C6EAFF"},
+				"Ray_Tex01":						{"color":"#C8C6EAFF"},
+				"tenmetsu_tex01":					{"color":"#C8C6EAFF"},
+				"shopposter_001":					{"color":"#C8C6EAFF"},
+
+				"GX_TP_mountain":					{"color":"#ABA8CCFF"},
+				"GX_Themepark_shadow-tex02_mat":	{"color":"#ABA8CCFF"},
+				"GX_TP_water_02":					{"color":"#ABA8CCFF"},
+				"EFF_sprash_Taki":					{"color":"#ABA8CCFF"},
+				"themepark_a_tex01":				{"color":"#ABA8CCFF"},
+				"water_tex01":						{"color":"#ABA8CCFF"},
+				"water_tex02":						{"color":"#ABA8CCFF"},
+				"themepark_tex01":					{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Themepark02":{},
+				"Prefab_MarikEV_GX":{"area_name":"Themepark01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Downtown02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":16.0,
+				"FogEnd":88.0,
+				"CameraFar":100.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"GX_DT_half_alp":	{"color":"#ABA8CCFF"},
+				"GX_DT_sea":		{"color":"#ABA8CCFF"},
+				"GX_DT_sea02":		{"color":"#ABA8CCFF"},
+				"GX_DT_main":		{"color":"#ABA8CCFF"},
+				"GX_DT_alp":		{"color":"#ABA8CCFF"},
+				"GX_DT_tree03_alp":	{"color":"#ABA8CCFF"},
+				"GX_DT_tree02":		{"color":"#ABA8CCFF"},
+				"Dt_half_alphatex":	{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex01":		{"color":"#ABA8CCFF"},
+				"Dt_Ray_Tex02":		{"color":"#ABA8CCFF"},
+				"Dt_various_main":	{"color":"#ABA8CCFF"},
+			},
+			"template":{
+				"GX_Downtown02":{},
+				"Prefab_MarikEV_GX":{"area_name":"Downtown01"},
+				"Hanabi_Fubuki":{}
+			}
+		},
+		"Park02":{
+			"areaOptions":{
+				"FogColor":"#ACB0CAFF",
+				"FogStart":30.0,
+				"FogEnd":70.0,
+				"CameraFar":130.0,
+				"OverRayTopColor":"#08070EFF",
+			},
+			"changeMaterials":{
+				"park_alphatex02":					{"color":"#C8C6EAFF"},
+				"park_alphatex01":					{"color":"#C8C6EAFF"},
+				"park_half_alphatex":				{"color":"#C8C6EAFF"},
+				"water_tex01":						{"color":"#C8C6EAFF"},
+
+				"GX_park_tex01_EX":					{"color":"#ABA8CCFF"},
+				"GX_Park_mountain":					{"color":"#ABA8CCFF"},
+				"GX_Gate_Halfalpha-park_tex01_EX":	{"color":"#ABA8CCFF"},
+				"GX_Gate_EX-park_tex01_EX":			{"color":"#ABA8CCFF"},
+				"park_tex01":						{"color":"#ABA8CCFF"},
+				"Gate_Halfalpha_lambert16":			{"color":"#ABA8CCFF"},
+
+				"park_gate01":						{"color":"#EFEEF7FF"},
+			},
+			"template":{
+				"GX_Park02":{},
+				"Prefab_MarikEV_GX":{"area_name":"Park01"},
+				"Hanabi_Fubuki":{}
+			}
+		}
+	}
+}

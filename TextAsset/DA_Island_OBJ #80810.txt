@@ -1,0 +1,115 @@
+{
+    "DA_Island_OBJ": {
+        "Street01": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 30.0,
+                "FogEnd": 90.0
+            },
+            "template": {
+                "5DS_Street01": {},
+                "DA_Island_OBJ": {},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Themepark01": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 30.0,
+                "FogEnd": 250.0,
+                "CameraNear": 0.3,
+                "CameraFar": 300.0
+            },
+            "template": {
+                "5DS_Themepark01": {},
+                "DA_Island_OBJ": {},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Downtown01": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 28.0,
+                "FogEnd": 56.0
+            },
+            "template": {
+                "5DS_Downtown01": {},
+                "DA_Island_OBJ": {},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Park01": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 30.0,
+                "FogEnd": 1610.0,
+                "CameraNear": 0.3,
+                "CameraFar": 3000.0
+            },
+            "template": {
+                "5DS_Park01": {},
+                "DA_Island_OBJ": {},
+                "Hanabi_Fubuki": {}
+            },
+        }
+        "Street02": {
+            "areaOptions": {
+                "FogColor": "#76C9C9FF",
+                "FogStart": 30.0,
+                "FogEnd": 90.0
+            },
+            "template": {
+                "5DS_Street02": {},
+                "DA_Island_OBJ": {"area_name":"Street01"},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Themepark02": {
+            "areaOptions": {
+                "FogColor": "#3A5998FF",
+                "FogStart": 30.0,
+                "FogEnd": 250.0,
+                "CameraNear": 0.3,
+                "CameraFar": 300.0
+            },
+            "changeMaterials": {
+                "themepark_tex01": {
+                    "texture": {
+                        "_MainTex": "Models/Single/Map2/Themepark02/sourceimages/themepark02_tex01"
+                    }
+                }
+            },
+            "template": {
+                "5DS_Themepark02": {},
+                "DA_Island_OBJ": {"area_name":"Themepark01"},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Downtown02": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 28.0,
+                "FogEnd": 56.0
+            },
+            "template": {
+                "5DS_Downtown02": {},
+                "DA_Island_OBJ": {"area_name":"Downtown01"},
+                "Hanabi_Fubuki": {}
+            },
+        },
+        "Park02": {
+            "areaOptions": {
+                "FogColor": "#E1FFFFFF",
+                "FogStart": 30.0,
+                "FogEnd": 1610.0,
+                "CameraNear": 0.3,
+                "CameraFar": 3000.0
+            },
+            "template": {
+                "5DS_Park02": {},
+                "DA_Island_OBJ": {"area_name":"Park01"},
+                "Hanabi_Fubuki": {}
+            },
+        }
+    }
+}
