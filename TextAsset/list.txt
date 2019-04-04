@@ -41,6 +41,57 @@
 												{
 													"tp": "text"
 													,"color": "yParamorange"
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO009'/>"
+													,"fontsize": 20
+												}
+												,{
+													"tp": "text"
+													,"bestfit": true
+													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_TEXT009'/>"
+													,"fontsize": 24
+												}
+											]
+										}
+									]
+								}
+								,{
+									"tp": "img"
+									,"anchor": [1,0.5,1,0.5]
+									,"layout": false
+									,"pos": [-30,30]
+									,"rot": [0,0,-10]
+									,"size": [82,62]
+									,"src": "<cwork path=KcReport.list.report9.newicon>"
+									,"tween": [
+										{
+											"tween": "scale"
+											,"from": [0.8,0.8,1]
+											,"to": [1,1,1]
+											,"style": "PingPongLoop"
+											,"duration": 0.4
+										}
+									]
+								}
+							]
+						}
+						,{
+							"tp": "hl"
+							,"padding": [0,0,0,0]
+							,"sub": [
+								{
+									"tp": "vl"
+									,"bgimage": "InfoWindowNB"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/8/top"
+									,"padding": [0,0,0,0]
+									,"sub": [
+										{
+											"tp": "vl"
+											,"padding": [50,12,15,20]
+											,"spacing": 18
+											,"sub": [
+												{
+													"tp": "text"
+													,"color": "yParamorange"
 													,"extext": "<text id='IDS_KCREPORT.REPORT_TITLE_NO008'/>"
 													,"fontsize": 20
 												}
@@ -81,7 +132,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/8/old/7/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/7/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -132,7 +183,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/7/old/6/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/6/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -183,7 +234,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/5/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/5/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -234,7 +285,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/4/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/4/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -285,7 +336,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/3/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/3/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -336,7 +387,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/2/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/2/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
@@ -387,7 +438,7 @@
 								{
 									"tp": "vl"
 									,"bgimage": "InfoWindowNB"
-									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/6/old/1/top"
+									,"link": "menu://push.content/Prefabs/Htjson/HtjsonPage?src=file://Htjson/kcReport/9/old/1/top"
 									,"padding": [0,0,0,0]
 									,"sub": [
 										{
